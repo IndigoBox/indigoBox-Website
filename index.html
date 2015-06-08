@@ -1,45 +1,125 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>indigoBox Studios</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <!-- Google Fonts Roboto -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:500,100,300,700,400' rel='stylesheet' type='text/css'>
-        <script src="main.css"></script>
-    </head>
-    <body>
-        <div id="header">
-            <div id="headerInner">
-                <div id="logo"></div>
-                <ul>
-                    <li id="curr"><a href="index.html">Home</a></li>
-                   <!-- <li><a href="team.html">Team</a></li>
-                    <li><a href="projects.html">Projects</a></li> -->
-                </ul>
-            </div>
-        </div>
-        <div id="pageContainer">
-            <div id="mainTitle">Developers, designers, and innovators.</div>
-            <div id="subTitle">We are the small, independent, and amazing indigoBox studios</div>
-            <p>indigoBox Studios is a technology group dedicated to making amazing software.
-            Whether it's a breathtaking game or an innovative program, indigoBox delivers.
-            We are made up of some of the brightest and most talented programmers, designers, and innovators.
-            </p>
-            <div style="left:65%; width:30%; right:0px; position:absolute; top: 32vh;">
-				<a class="twitter-timeline" href="https://twitter.com/indigobox" data-widget-id="481215769317879808">Tweets by @indigobox</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			</div>
-        </div>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
         
-			<div id="imgBack">
-			    <div id="mainText"><h1>Woops! We're not done here!</h1>
-                <h3 style="font-weight: normal;">We're building a brand new website full of amazing features, glorious graphics, and, of course,
-                indigoBox quality. Follow us on Twitter to hear when it's ready!</h3></div>
-            </div>
-            <!-- <div id="pageCover"></div> -->
-            
-        <div id="footer">
-            <div id="footerText">Copyright indigoBox Studios 2015</div>
-        </div>
+        <style type="text/css">
+			body {
+				font-family: 'Roboto', sans-serif;
+			}
+		</style>
+    </head>
+    <body class="loading">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+       	
+       	<div id="preload">
+	       	<img src="img/logoservers.png">
+	       	<img src="img/snowshoes.png">
+	       	<img src="img/tsot.png">
+	       	<img src="img/team.png">
+       	</div>
+       	
+       	<main>
+       	 
+	        <section id="slide-1" class="homeSlide">
+	        	<div class="bcg" 
+	        		data-center="background-position: 50% 0px;" 
+	        		data-top-bottom="background-position: 50% -100px;" 
+	        		data-anchor-target="#slide-1"
+	        	>
+		        	<div class="hsContainer">
+			    		<div class="hsContent" data-center="bottom: 200px; opacity: 1" data-top="bottom: 1200px; opacity: 0" data-anchor-target="#slide-1 h2">
+				    		<h2>Developers, designers, and innovators.</h2>
+			    		</div>
+		        	</div>
+	        	</div>
+		    </section>
+		    
+			<section id="slide-2" class="homeSlide">
+				<div class="bcg" 
+					data-center="background-position: 50% 10px;" 
+					data-top-bottom="background-position: 50% -100px;" 
+					data-bottom-top="background-position: 50% 100px;" 
+					data-anchor-target="#slide-2"
+				>
+			    	<div class="hsContainer">
+			    		<div class="hsContent" 
+			    			data-center="opacity: 1" 
+			    			data-center-top="opacity: 0" 
+			    			data--100-bottom="opacity: 0;" 
+			    			data-anchor-target="#slide-2"
+			    		>
+				    		<h2>indigoBox Studios is a technology group dedicated to making amazing software.</h2>
+			    		</div>
+			    	</div>
+				</div>
+			</section>
+		    
+			<section id="slide-3" class="homeSlide">
+			    <div class="bcg"
+			        data-center="background-position: 50% 0px;"
+			        data-top-bottom="background-position: 50% -100px;"
+			        data-bottom-top="background-position: 50% 100px;"
+			        data-anchor-target="#slide-3"
+			    >
+			        <div class="hsContainer">
+			            <div class="hsContent"
+			                data--50-bottom="opacity: 0;"
+			                data--200-bottom="opacity: 1;"
+			                data-center="opacity: 1"
+			                data-200-top="opacity: 0"
+			                data-anchor-target="#slide-3 h2"
+			            >
+			                <h2>Whether it's a breathtaking game </h2><h2>or an innovative program, indigoBox delivers.</h2>
+			            </div>
+			        </div>
+			    </div>
+			</section>
+			
+			<section id="slide-4" class="homeSlide">
+				<div class="bcg" 
+					data-center="background-position: 50% 0px;" 
+					data-top-bottom="background-position: 50% -100px;" 
+					data-bottom-top="background-position: 50% 100px;" 
+					data-anchor-target="#slide-4"
+				>
+			    	<div class="hsContainer">
+						<div class="hsContent" 
+							data-bottom-top="opacity: 0" 
+							data-25p-top="opacity: 0" 
+							data-top="opacity: 1"  
+							data-anchor-target="#slide-4"
+						>
+				    		<h2>We are made up of some of the brightest and most talented programmers, designers, and innovators.</h2>
+			    		</div>
+			    	</div>
+			    	
+			    </div>
+			</section>
+		    
+		</main>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/imagesloaded.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/_main.js"></script>
+
     </body>
 </html>
