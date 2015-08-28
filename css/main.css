@@ -136,7 +136,7 @@ main {
 	}
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('http://i.imgur.com/dhm02F5.png')} /* used to be '../img/logoservers.png'
+#slide-1 .bcg {background-image:url('http://s8.postimg.org/kxlpighk1/indigo_Box_TSOT_Servers.png')} /* used to be '../img/logoservers.png'
 #slide-1 .hsContent {
 	bottom: 0px;
 	top: auto;
@@ -144,7 +144,7 @@ main {
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('http://i.imgur.com/eb3lBV1.png')} /* used to be ../img/snowshoesA.png */
+#slide-2 .bcg {background-image:url('http://s8.postimg.org/mo05679pd/indigo_Box_Snowshoes.png')} /* used to be ../img/snowshoesA.png */
 #slide-2 .hsContent {
 	margin-left: -450px;
 	top: 300px;
@@ -155,7 +155,7 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('http://i.imgur.com/y5HiBZ1.png')} /* used to be ../img/tsot.png */
+#slide-3 .bcg {background-image:url('http://s8.postimg.org/jrd45x3vl/indigo_Box_TSOT.png')} /* used to be ../img/tsot.png */
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -165,7 +165,7 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('http://i.imgur.com/1tq9tey.png')} /* used to be ../img/team.png */
+#slide-4 .bcg {background-image:url('http://s8.postimg.org/lkg0u8p29/indigo_Box_Team_Photo.png')} /* used to be ../img/team.png */
 #slide-4 .hsContent {
 	margin-left: -330px;
 	position: fixed;
