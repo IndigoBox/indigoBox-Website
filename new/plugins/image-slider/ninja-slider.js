@@ -10,7 +10,7 @@ var nsOptions = {
     aspectRatio: "1600:853",
     circular: true,
     touchCircular: true,
-    mobileNav: false,
+    mobileNav: true,
     before: null,
     after: null,
     multipleImages: {
