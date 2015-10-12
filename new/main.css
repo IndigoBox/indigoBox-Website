@@ -1,0 +1,47 @@
+body{margin: 0px;padding: 0px;}
+
+
+#main-header
+{
+	background: rgb(20,20,20);
+	height: 40px;
+	color: white;
+	font-family: Roboto;
+}
+#main-header #logo
+{
+	height: 70%;
+	float: left;
+	font-size: 24px;
+	position: relative;
+	top: 15%;
+	left: 10px;
+	cursor: pointer;
+	transition: background 0.5s, color 0.5s;
+}
+#main-header #logo:hover
+{
+}
+
+#main-header #logo-b
+{
+	color: #8012e7;
+}
+#main-header #menu
+{
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding-left: 20px;
+}
+#main-header #menu li
+{
+	float: left;
+	padding: 11px 15px 10px 15px;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+#main-header #menu li:hover
+{
+	background: grey;
+}
