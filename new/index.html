@@ -1,44 +1,49 @@
 <head>
-	<link rel="stylesheet" href="css/main.css">
-	<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css">
-  <!-- Roboto being imported -->
+    <link rel="stylesheet" href="css/main.css">
 
-  <link href="plugins/image-slider/ninja-slider.css" rel="stylesheet" type="text/css" />
-  <script src="plugins/image-slider/ninja-slider.js" type="text/javascript"></script>
-  <!-- JS Image Slider being loaded -->
+    <!-- Roboto font -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Image Slider -->
+    <script src="plugins/responsive-slider/responsiveslides.min.js"></script>
+    <link rel="stylesheet" href="plugins/responsive-slider/responsiveslides.css">
 </head>
 <body>
 
 <div id="main-header">
-	<div id="header-inner">
+    <div id="header-inner">
 		<span id="logo">
 			indigo<span id="logo-b">Box</span>
 		</span>
-		<ul id="menu">
-			<li>Home</li>
-			<li>About</li>
-			<li id="proj">Projects
-			<ul class="menu-drop" id="project-menu">
-			<li>The Speed of Time</li>
-			<li>Snowshoes</li>
-			<li>Lines</li>
-			</ul>
-			</li>
-			<li>Sneak Peek</li>
-			<li>Contact</li>
-    </ul>
-  </div>
+        <ul id="menu">
+            <li>Home</li>
+            <li>About</li>
+            <li id="proj">Projects
+                <ul class="menu-drop" id="project-menu">
+                    <li>The Speed of Time</li>
+                    <li>Snowshoes</li>
+                    <li>Lines</li>
+                </ul>
+            </li>
+            <li>Sneak Peek</li>
+            <li>Contact</li>
+        </ul>
+    </div>
 </div>
 <div id="main-container">
 
-<div id="content">
-  <div id='ninja-slider'>
-    <ul>
-      <li><div data-image="img/1-b.jpg"></div></li>
-      <li><div data-image="img/5-b.jpg"></div></li>
-    </ul>
-  </div>
-</div>
+    <div id="content">
+
+        <ul class="rslides">
+            <li><img src="img/1-b.jpg" alt=""></li>
+            <li><img src="img/5-b.jpg" alt=""></li>
+        </ul>
+
+
+    </div>
 
 </div>
 </body>
