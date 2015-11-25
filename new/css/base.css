@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Lato);
+/*
+    Uses a mobile first design - properties for larger displays are at the bottom.
+*/
+
+
+/* Default Values - default margin and padding is obnoxious!
+// ============================================================================ */
+
+/* some default values that make sense */
+* {
+    font-family: 'Lato', sans-serif; /* paragraph font */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li, ul {
+    list-style: none;
+}
+
+a, span, h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif; /* header font */
+}
+
+hr {
+    width: 100%;
+    border-color: rgb(20, 20, 20);
+}
+
+h1 {  font-size: 3.5em;  }
+h2 {  font-size: 2.5em;  }
+h3 {  font-size: 2.188em;  }
+h4 {  font-size: 1.875em;  }
+
+/* Navigation Bar
+// ============================================================================ */
+
+nav {
+    background: rgb(20, 20, 20);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo {
+    margin-left: 5%;
+    font-size: 3.75em;
+    cursor: pointer;
+}
+
+#logo span {
+    color: #8012e7;
+}
+
+/* Sticky Footer
+// ============================================================================ */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#content {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background: rgb(20, 20, 20);
+}
+
+footer p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+    font-size: 1.5em;
+}
+
+/* Page Body
+// ============================================================================ */
+
+body {
+    align-items: center;
+    background: url("../img/dark_background.png") repeat;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#content > * {
+    margin-bottom: 50px;
+}
+
+#content hr {
+    margin-top: 100px;
+}
+
+#projects-overview {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#projects-overview .project {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: 0px 0px 20px rgba(200, 200, 255, 0.5);
+    background: rgb(20, 20, 20);
+}
+
+#projects-overview li {
+    margin: 20px;
+}
+
+#projects-overview li img {
+    width: auto;
+    height: 300px;
+}
+
+#projects-overview li p {
+    background: white;
+    color: black;
+    font-weight: 600;
+    font-size: 1.75em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 1275px) {
+
+    nav {
+        flex-direction: row;
+    }
+
+    #content {
+        width: 85%;
+    }
+
+    #logo {
+        font-size: 3.125em;
+    }
+
+    #projects-overview li img {
+        width: auto;
+        height: 400px;
+    }
+}
+
+/* Common Class Types
+// ============================================================================ */
+
+.large-list {
+    font-size: 40px;
+}
+
+.large-list li a {
+    color: rgb(150, 150, 225);
+}
+
+.info-box {
+    line-height: 40px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-top: 20px solid mediumpurple;
+    background: rgba(20, 20, 20, 0.5);
+    box-shadow: 0px 0px 30px rgba(200, 200, 255, 0.5);
+}
+
+.info-box h1, h2, h3, h4 {
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 1.8em;
+}
+
+.has-aside {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+}
+
+@media only screen and (min-width: 1275px) {
+
+    .info-box {
+        max-width: 600px;
+    }
+
+    .has-aside {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* Image Slider, this is a questionable approach, but also simpler/faster.
+// ============================================================================ */
+
+@keyframes transitions {
+    0% { left: 0%; }
+    20% { left: 0%; } 25% { left: -100%; }
+    45% { left: -100%; } 50% { left: -200%; }
+    70% { left: -200%; } 75% { left: -300%; }
+    95% { left: -300%; } 100% { left: -300%; }
+}
+
+.image-slider {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 30px rgba(200, 200, 255, 0.5);
+
+    overflow: hidden;
+}
+
+.image-slider figure {
+    position: relative;
+    width: 500%;
+    left: 0;
+    animation: 30s transitions infinite;
+}
+
+.image-slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@media only screen and (min-width: 1275px) {
+    .image-slider {
+        margin-right: 80px;
+        min-width: 500px;
+        max-width: 1280px;
+    }
+}
+
+/* Dropdown Menu
+// ============================================================================ */
+
+.menu {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.menu ul {
+    display: none; /* hide the sub-menu */
+    background: rgb(20, 20, 20);
+    position: absolute;
+}
+
+.menu li {
+    line-height: 80px;
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+/* any menu button */
+.menu li:hover {
+    background: #8012e7;
+    box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.5);
+}
+
+/* show sub-menus */
+.menu li:hover > ul {
+    display: block;
+    align-content: center;
+}
+
+/* padding between buttons */
+.menu li a {
+    padding: 0px 40px;
+    font-size: 1.875em;
+}
+
+.menu ul li {
+    float: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (min-width: 1275px) {
+    .menu {
+        width: auto;
+        margin-left: 30px;
+        flex-direction: row;
+    }
+}
