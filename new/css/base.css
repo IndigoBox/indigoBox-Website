@@ -32,9 +32,9 @@ hr {
     border-color: rgb(20, 20, 20);
 }
 
-h1 {  font-size: 2.5em;  }
-h2 {  font-size: 2.0em;  }
-h3 {  font-size: 1.5em;  }
+h1 {  font-size: 2.00em;  }
+h2 {  font-size: 1.75em;  }
+h3 {  font-size: 1.25em;  }
 h4 {  font-size: 1.0em;  }
 
 /* Navigation Bar
@@ -89,7 +89,7 @@ footer p {
     margin-top: 6px;
     margin-bottom: 6px;
 
-    font-size: 1.5em;
+    font-size: 0.75em;
 }
 
 /* Page Body
@@ -110,11 +110,11 @@ body {
 }
 
 #content > * {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #content hr {
-    margin-top: 100px;
+    margin-top: 35px;
 }
 
 #projects-overview {
@@ -133,7 +133,7 @@ body {
 }
 
 #projects-overview li {
-    margin: 20px;
+    margin: 30px;
 }
 
 #projects-overview li img {
@@ -145,10 +145,10 @@ body {
     background: white;
     color: black;
     font-weight: 600;
-    font-size: 1.75em;
+    font-size: 1.00em;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 @media only screen and (min-width: 1275px) {
@@ -199,7 +199,7 @@ body {
 }
 
 .info-box p {
-    font-size: 1.8em;
+    font-size: 1.25em;
 }
 
 .has-aside {
