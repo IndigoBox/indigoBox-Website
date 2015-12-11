@@ -13,21 +13,30 @@ font {
 }
 
 a.dl {
-	font-size:22px; 
-	color:#568d62;
-	text-decoration:none;
-	font-family:'Open Sans', sans-serif;
+	position: relative;
+	font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background: #00BD00;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-bottom: solid 4px green;
+    top: 5px;
 }
 
 a.minorlink {
 	color:#EEEEEE;
 	text-decoration:none;
 	font-family:'Open Sans', sans-serif;
+	font-weight: 600;
 }
 
 a.dl:hover {
-	
-	color:#FF0000;
+	border-width: 2px;
+	margin-top: 2px;
+	top: 7px;
 	text-decoration:none;
 	font-family:'Open Sans', sans-serif;
 }
@@ -80,7 +89,7 @@ a.minorlink:hover {
 
 #thisBackgroundKeepingSnowshoesLookingGlassTilesScience {
 	top:0px;
-	height:11%;
+	height:70px;
 	left:0px;
 	right:0px;
 	width:100%;
@@ -93,8 +102,8 @@ a.minorlink:hover {
 
 #divInsideOfDivThatShouldBeRenamed {
 	
-	top:3%;
-	height:4%;
+	top:18px;
+	height:50px;
 	left:2%;
 	right:5%;
 	width:100%;
@@ -102,9 +111,15 @@ a.minorlink:hover {
 	display:table-cell;
 	color:White;
 	font-size:24px;
-	letter-spacing: 5px;
-	overflow:hidden;
-} 
+}
+
+#divInsideOfDivThatShouldBeRenamed img{
+	background: white;
+    border-radius: 35px;
+    position: relative;
+    top: -11px;
+    height: 110%;
+}
 
 #about {
 	top:94%;
@@ -117,6 +132,12 @@ a.minorlink:hover {
 	position:absolute;
 	color:#111111;
 	overflow:hidden;
+}
+
+#about font
+{
+	position: relative;
+	top: -20px;
 }
 
 #buildsActual {
