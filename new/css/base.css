@@ -97,7 +97,8 @@ footer p {
 
 body {
     align-items: center;
-    background: url("../img/dark_background.png") repeat;
+    background: #333333;
+    /* background: url("../img/dark_background.png") repeat; */
 }
 
 #content {
@@ -162,7 +163,7 @@ body {
     }
 
     #logo {
-        font-size: 2.00em;
+        font-size: 1.5em;
     }
 
     #projects-overview li img {
@@ -228,7 +229,7 @@ body {
     20% { left: 0%; } 25% { left: -100%; }
     45% { left: -100%; } 50% { left: -200%; }
     70% { left: -200%; } 75% { left: -300%; }
-    95% { left: -300%; } 100% { left: -300%; }
+    95% { left: -300%; } 100% { left: -400%; }
 }
 
 .image-slider {
@@ -300,13 +301,13 @@ body {
 /* padding between buttons */
 .menu li a {
     padding: 0px 15px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .menu ul li {
     float: none;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
 }
 
 @media only screen and (min-width: 1275px) {
@@ -315,4 +316,66 @@ body {
         margin-left: 20px;
         flex-direction: row;
     }
+}
+
+/* Projects Page
+// ============================================================================ */
+
+#tiles {
+    width: 70%;
+    height: 400px;
+    margin: -2.5%;
+}
+
+#tiles .tile {
+    position: relative;
+    width: 45%;
+    height: 50%;
+    float: left;
+    background: red;
+    margin: 2.5%;
+    background-size: cover !important;
+}
+
+.tile .title {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    background: rgba(0,0,0,0.5);
+    font-family: 'Roboto', sans-serif;
+}
+
+.tile .cover {
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 0.35);
+    height: 100%;
+    width: 100%;
+}
+
+.tile .cover:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+.tile#ScrollStop
+{
+    background: url("../img/ScrollStop2.png");
+}
+
+.tile#InClouds
+{
+    background: url("../img/InClouds.png");
+}
+
+.tile#Carpe
+{
+    background: url("../img/Carpe3.jpg");
+}
+
+.tile#SpaceGame
+{
+    background: url("../img/SpaceGame1.png");
 }
