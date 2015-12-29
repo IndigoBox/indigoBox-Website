@@ -1,0 +1,142 @@
+/* This definitely won't be as pretty as the main.css for the index, but here goes.
+
+Seriously. Go check out Matthew's work. It's wonderful. */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color:Green;
+}
+
+#hoverbar {
+	background-color:White;
+	box-shadow: 0px 10px 10px #444;
+	top:0px;
+	width:100%;
+	left:0px;
+	right:0px;
+	height:10%;
+	position:fixed;
+	z-index:5501;
+}
+
+#s1 {
+	background-image:url(../img/blue.png);
+	top:10%;
+	height:90%;
+	background-size:cover;
+	left:0px;
+	right:0px;
+	width:100%;
+	position: absolute;
+}
+
+#s2 {
+	background-image:url(../img/green.png);
+	top:100%;
+	height:90%;
+	background-size:cover;
+	left:0px;
+	right:0px;
+	width:100%;
+	position: absolute;
+}
+
+#s3 {
+	background-image:url(../img/orange.png);
+	top:190%;
+	height:90%;
+	background-size:cover;
+	left:0px;
+	right:0px;
+	width:100%;
+	position: absolute;
+}
+
+#s4 {
+	background-image:url(../img/purple.png);
+	top:280%;
+	height:90%;
+	background-size:cover;
+	left:0px;
+	right:0px;
+	width:100%;
+	position: absolute;
+}
+
+#top-sg {
+	/*background-image:url(../img/madeit.png);*/
+	left:70%;
+	right:0px;
+	top:0px;
+	width:30%;
+	height:100%;
+	z-index:7226;
+	position:relative;
+	text-align:right;
+}
+
+#lside-hb {
+	left:10px;
+	width:100%;
+	top:15%;
+	position:absolute;
+}
+
+#toplinks { 
+	left:30%;
+	position: absolute;
+
+}
+
+/* Buttons and Text Styling Classes */
+
+.ps-logo-g {
+	font-variant: small-caps; /* It does exist! */ 
+	color:#bfbfbf;
+	font-size:24px;
+	font-weight:300;
+	top:calc(10% / 0.35);
+	position: absolute;
+}
+
+.ps-logo-a {
+	font-variant: small-caps;
+	color:#00b0f0;
+	font-size:30px;
+	font-weight:300;
+}
+
+.scsg {
+	font-variant: small-caps;
+	color:#F00;
+	font-size:18px;
+
+}
+
+.active-pg {
+	text-decoration: none;
+	color:#00b0f0;
+	font-size:1.5vw;
+	text-indent:20px;
+	font-weight:300;
+	top:1vw;
+	position: relative;
+}
+
+.inactive-pg {
+	text-decoration: none;
+	color:#bfbfbf;
+	font-size:1.5vw;
+	text-indent:20px;
+	font-weight:300;
+	top:1vw;
+	position: relative;
+}
+
+.sl1img {
+	right:5%;
+	position:absolute;
+	top:30%;
+	width:50%;
+
+}
