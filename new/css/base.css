@@ -1,36 +1,41 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto|Lato);
 /*
     Uses a mobile first design - properties for larger displays are at the bottom.
+
+    Custom Color Key:
+    - Primary Purple: rgb(125,20,230)
 */
 
 
 /* Default Values - default margin and padding is obnoxious!
 // ============================================================================ */
 
-/* some default values that make sense */
 * {
-    font-family: 'Lato', sans-serif; /* paragraph font */
-    color: white;
-    margin: 0;
+    /* Layout - clearly alters flow of page*/
     padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+
+    /* Typography - may alter the flow of the page */
+    font-family: 'Lato', sans-serif; /* paragraph font */
+    font-size: 100%;
+
+    /* Appearance - does not alter the flow of the page */
+    color: white;
+    outline: none;
 }
 
-a {
-    text-decoration: none;
-}
+body { line-height: 1; }
+ol, ul {  list-style: none;  }
+a {  text-decoration: none;  }
 
-li, ul {
-    list-style: none;
-}
 
 a, span, h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif; /* header font */
 }
 
-hr {
-    width: 100%;
-    border-color: rgb(20, 20, 20);
-}
+hr {  width: 100%;  border-color: rgb(20, 20, 20);  }
 
 h1 {  font-size: 2.00em;  }
 h2 {  font-size: 1.75em;  }
@@ -41,21 +46,22 @@ h4 {  font-size: 1.0em;  }
 // ============================================================================ */
 
 nav {
-    background: rgb(20, 20, 20);
     width: 100%;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+
+    background: rgb(20, 20, 20);
 }
 
 #logo {
-    margin-left: 10px;
+    margin: 0 0 0 10px;
     font-size: 3.5em;
     cursor: pointer;
 }
 
 #logo span {
-    color: #8012e7;
+    color: rgb(125,20,230)
 }
 
 /* Sticky Footer
@@ -67,9 +73,9 @@ html {
 }
 
 body {
+    min-height: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
 }
 
 #content {
@@ -77,11 +83,12 @@ body {
 }
 
 footer {
+    width: 100%;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 20px;
+
     background: rgb(20, 20, 20);
 }
 
@@ -97,25 +104,23 @@ footer p {
 
 body {
     align-items: center;
-    background: #333333;
-    /* background: url("../img/dark_background.png") repeat; */
+    background: rgb(50, 50, 50);
 }
 
 #content {
+    width: 90%;
+    margin: 50px 0 25px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
-    margin-top: 50px;
-    margin-bottom: 25px;
 }
 
 #content > * {
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
 }
 
 #content hr {
-    margin-top: 35px;
+    margin: 35px 0 0 0;
 }
 
 #projects-overview {
@@ -129,12 +134,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    box-shadow: 0px 0px 20px rgba(200, 200, 255, 0.5);
+
     background: rgb(20, 20, 20);
+    box-shadow: 0 0 20px rgba(200, 200, 255, 0.5);
 }
 
 #projects-overview li {
-    margin: 30px;
+    margin: 20px;
 }
 
 #projects-overview li img {
@@ -143,13 +149,14 @@ body {
 }
 
 #projects-overview li p {
-    background: white;
-    color: black;
-    font-weight: 600;
-    font-size: 1.00em;
+    padding: 5px 0 5px 0;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+    font-size: 1.00em;
+    font-weight: 600;
+
+    color: black;
+    background: white;
 }
 
 @media only screen and (min-width: 1275px) {
@@ -175,6 +182,7 @@ body {
 /* Common Class Types
 // ============================================================================ */
 
+
 .large-list {
     font-size: 40px;
 }
@@ -184,19 +192,21 @@ body {
 }
 
 .info-box {
-    line-height: 40px;
-    text-align: justify;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
-    border-top: 20px solid mediumpurple;
+    text-align: justify;
+
+    line-height: 40px;
+
     background: rgba(20, 20, 20, 0.5);
-    box-shadow: 0px 0px 30px rgba(200, 200, 255, 0.5);
+    border-top: 20px solid mediumpurple;
+    box-shadow: 0 0 30px rgba(200, 200, 255, 0.5);
 }
 
 .info-box h1, h2, h3, h4 {
-    margin-bottom: 15px;
+    margin: 0 0 15px 0;
 }
 
 .info-box p {
@@ -225,8 +235,8 @@ body {
 // ============================================================================ */
 
 @keyframes transitions {
-    0% { left: 0%; }
-    20% { left: 0%; } 25% { left: -100%; }
+    0% { left: 0; }
+    20% { left: 0; } 25% { left: -100%; }
     45% { left: -100%; } 50% { left: -200%; }
     70% { left: -200%; } 75% { left: -300%; }
     95% { left: -300%; } 100% { left: -400%; }
@@ -234,19 +244,17 @@ body {
 
 .image-slider {
     position: relative;
-    overflow: hidden;
-    margin-bottom: 40px;
     width: 100%;
     height: 100%;
-    box-shadow: 0px 0px 30px rgba(200, 200, 255, 0.5);
+    margin: 0 0 40px 0;
 
     overflow: hidden;
+    box-shadow: 0 0 30px rgba(200, 200, 255, 0.5);
 }
 
 .image-slider figure {
     position: relative;
     width: 500%;
-    left: 0;
     animation: 30s transitions infinite;
 }
 
@@ -257,9 +265,9 @@ body {
 
 @media only screen and (min-width: 1275px) {
     .image-slider {
-        margin-right: 80px;
         min-width: 500px;
         max-width: 1280px;
+        margin:  0 0 80px 0;
     }
 }
 
@@ -269,15 +277,15 @@ body {
 .menu {
     position: relative;
     width: 100%;
+    z-index: 10;
     display: flex;
     flex-direction: column;
-    z-index: 10;
 }
 
 .menu ul {
+    position: absolute;
     display: none; /* hide the sub-menu */
     background: rgb(20, 20, 20);
-    position: absolute;
 }
 
 .menu li {
@@ -288,11 +296,11 @@ body {
 
 /* any menu button */
 .menu li:hover {
-    background: #8012e7;
-    box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.5);
+    background: rgb(125,20,230);
+    box-shadow: 0 0 9px rgba(255, 255, 255, 0.5);
 }
 
-/* show sub-menus */
+/* sub-menus */
 .menu li:hover > ul {
     display: block;
     align-content: center;
@@ -300,20 +308,14 @@ body {
 
 /* padding between buttons */
 .menu li a {
-    padding: 0px 15px;
+    padding: 0 15px 0 15px;
     font-size: 1.2em;
-}
-
-.menu ul li {
-    float: none;
-    /* border-top: 1px solid black;
-    border-bottom: 1px solid black; */
 }
 
 @media only screen and (min-width: 1275px) {
     .menu {
         width: auto;
-        margin-left: 20px;
+        margin: 0 0 0 20px;
         flex-direction: row;
     }
 }
@@ -340,7 +342,7 @@ body {
 .tile .title {
     position: absolute;
     width: 100%;
-    top: 0px;
+    top: 0;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
