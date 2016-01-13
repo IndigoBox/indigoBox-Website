@@ -3,4 +3,5 @@
 User-agent: *
 Disallow: /old
 Disallow: /new
-Disallow: /projects
+Disallow: /projects/tsot
+Disallow: /projects/resources

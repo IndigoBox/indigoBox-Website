@@ -1,0 +1,43 @@
+/* Apparently, I like naming all of the CSS files "main".
+
+Interesting. */
+
+#navbar {
+	background-image:url(../img/topGradient.png);
+	background-repeat:repeat-x;
+	left:0px;
+	right:0px;
+	width:100%;
+	top:0px;
+	font-family:'Roboto','Helvetica Neue',Lucida Sans, sans-serif;
+  	padding-left: 70px;
+  	padding-top:8px;
+  	padding-bottom:8px;
+  	z-index:2;
+  	position:fixed;
+}
+
+#indigoboxlogo {
+	font-size:20px;
+	width:2vw;
+}
+
+#indigoboxlogo:hover {
+	color:White;
+}
+
+#linknav {
+	font-size:16px;
+	color:#AAA;
+	width:10%;
+	top:0px;
+	padding-right: 3px;
+  	padding-left: 20px;
+  	
+  	
+  	text-align:center;
+}
+
+#linknav:hover {
+	color:White;
+}
