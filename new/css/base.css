@@ -116,14 +116,19 @@ body {
     position: absolute; /* force overlay above background image */
     width: 100%;
     display: flex;
-    background: url('../img/TSOT3.jpg') no-repeat;
-    background-size: 100%;
 /*    overflow: hidden; */
 }
 
 #background {
-    width: 100%; /* has horizontal distortion, auto and overflow-hidden is the alternative. */
-    height: auto; /* has vertical distortion*/
+    /*
+    width: 100%; /* has horizontal distortion, auto and overflow-hidden is the alternative. *
+    height: auto; /* has vertical distortion*
+    */
+    width: 100%;
+    height: calc(100vh - 68px);
+    background: url("/new/img/TSOT3.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* overlay for content image */
@@ -140,7 +145,7 @@ body {
     position: absolute;
     width: 15em;
     top: 5%;
-    right: 11%;
+    right: 7%;
     font-size: 2em;
 }
 
