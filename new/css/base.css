@@ -110,12 +110,14 @@ footer p {
 body {
     align-items: center;
     background: rgb(50, 50, 50);
+    overflow: hidden; /* Fuck scroll */
 }
 
 #content {
     position: absolute; /* force overlay above background image */
     width: 100%;
     display: flex;
+    left: 0;
 /*    overflow: hidden; */
 }
 
@@ -125,7 +127,7 @@ body {
     height: auto; /* has vertical distortion*
     */
     width: 100%;
-    height: calc(100vh - 68px);
+    height: calc(100vh - 50px);
     background: url("/new/img/TSOT3.jpg");
     background-size: cover;
     background-position: center;
