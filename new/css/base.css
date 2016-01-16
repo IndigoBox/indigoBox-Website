@@ -110,7 +110,7 @@ footer p {
 body {
     align-items: center;
     background: rgb(50, 50, 50);
-    overflow: hidden; /* Fuck scroll */
+    overflow-x: hidden; /* Viktor buys soap, 2k15 */
 }
 
 #content {
