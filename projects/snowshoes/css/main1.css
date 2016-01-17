@@ -5,6 +5,8 @@ Seriously. Go check out Matthew's work. It's wonderful. */
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color:Green;
+	color:#ABC1D5;
+	font-size:24px;
 }
 
 #hoverbar {
@@ -88,7 +90,43 @@ body {
 
 }
 
+
+
+
+/* Text for corresponding slides */
+
+#s1t {
+	top:20%;
+	padding-left:26px;
+	position:absolute;
+	max-width:35%;
+	font-weight:100;
+}
+
+
+
 /* Buttons and Text Styling Classes */
+
+.linkTo {
+	border-color:#AAAAAA;
+	border-style:solid;
+	border-width:1px;
+	height:36px;
+	position:absolute;
+	width:90%;
+	background-color:#00b0f0;
+	font-size:20px;
+	text-decoration:none;
+	color:White;
+	margin-top:20px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:-10px;
+}
+
+.linkTo:active {
+	background-color:#286AA9;
+}
 
 .ps-logo-g {
 	font-variant: small-caps; /* It does exist! */ 
@@ -104,6 +142,13 @@ body {
 	color:#00b0f0;
 	font-size:30px;
 	font-weight:300;
+}
+
+.ps-title {
+	font-variant:small-caps;
+	color:White;
+	font-size:64px;
+	font-weight:100;
 }
 
 .scsg {
@@ -134,7 +179,7 @@ body {
 }
 
 .sl1img {
-	right:5%;
+	right:2%;
 	position:absolute;
 	top:30%;
 	width:50%;
