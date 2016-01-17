@@ -1,0 +1,108 @@
+@import "base.css";
+
+/*
+    file: project-page.css
+    CSS for projects.html
+*/
+
+#projects-overview {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#projects-overview .project {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    background: rgb(20, 20, 20);
+    box-shadow: 0 0 20px rgba(200, 200, 255, 0.5);
+}
+
+#projects-overview li {
+    margin: 20px;
+}
+
+#projects-overview li img {
+    width: auto;
+    height: 300px;
+}
+
+#projects-overview li p {
+    padding: 5px 0 5px 0;
+    text-align: center;
+
+    font-size: 1.00em;
+    font-weight: 600;
+
+    color: black;
+    background: white;
+}
+
+@media only screen and (min-width: 900px) {
+    #projects-overview li img {
+        width: auto;
+        height: 400px;
+    }
+}
+
+#tiles {
+    width: 70%;
+    height: 400px;
+    margin: -2.5%;
+}
+
+#tiles .tile {
+    position: relative;
+    width: 45%;
+    height: 50%;
+    float: left;
+    background: red;
+    margin: 2.5%;
+    background-size: cover !important;
+}
+
+.tile .title {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+    background: rgba(0,0,0,0.5);
+    font-family: 'Roboto', sans-serif;
+}
+
+.tile .cover {
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 0.35);
+    height: 100%;
+    width: 100%;
+}
+
+.tile .cover:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+.tile#ScrollStop
+{
+    background: url("../img/ScrollStop2.png");
+}
+
+.tile#InClouds
+{
+    background: url("../img/InClouds-small.jpg");
+}
+
+.tile#Carpe
+{
+    background: url("../img/Carpe3-small.jpg");
+}
+
+.tile#SpaceGame
+{
+    background: url("../img/SpaceGame1-small.jpg");
+}

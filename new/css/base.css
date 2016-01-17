@@ -1,5 +1,10 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100|Lato);
+@import "reset.css";
+@import "common.css";
+
 /*
+    file: base.css
     Uses a mobile first design - properties for larger displays are at the bottom.
 
     Note:
@@ -10,42 +15,6 @@
     Custom Color Key:
     - Primary Purple: rgb(125,20,230)
 */
-
-
-/* Default Values - default margin and padding is obnoxious!
-// ============================================================================ */
-
-* {
-    /* Layout - clearly alters flow of page*/
-    padding: 0;
-    margin: 0;
-    border: 0;
-    vertical-align: baseline;
-
-    /* Typography - may alter the flow of the page */
-    font-family: 'Lato', sans-serif; /* paragraph font */
-    font-size: 100%;
-
-    /* Appearance - does not alter the flow of the page */
-    color: white;
-    outline: none;
-}
-
-body { line-height: 1; }
-ol, ul {  list-style: none;  }
-a {  text-decoration: none;  }
-
-
-a, span, h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif; /* header font */
-}
-
-hr {  width: 100%;  border-color: rgb(20, 20, 20);  }
-
-h1 {  font-size: 2.00em;  }
-h2 {  font-size: 1.75em;  }
-h3 {  font-size: 1.25em;  }
-h4 {  font-size: 1.0em;  }
 
 /* Navigation Bar
 // ============================================================================ */
@@ -67,287 +36,6 @@ nav {
 
 #logo span {
     color: rgb(125,20,230)
-}
-
-/* Sticky Footer
-// ============================================================================ */
-
-html {
-    width: 100%;
-    height: 100%;
-}
-
-body {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-#content {
-    flex: 1;
-}
-
-footer {
-    width: 100%;
-    padding: 20px 0 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: rgb(20, 20, 20);
-}
-
-footer p {
-    margin-top: 6px;
-    margin-bottom: 6px;
-
-    font-size: 0.75em;
-}
-
-/* Page Body
-// ============================================================================ */
-
-body {
-    align-items: center;
-    background: rgb(50, 50, 50);
-    overflow-x: hidden; /* Viktor buys soap, 2k15 */
-}
-
-#content {
-    position: absolute; /* force overlay above background image */
-    width: 100%;
-    display: flex;
-    left: 0;
-/*    overflow: hidden; */
-}
-
-#background {
-    /*
-    width: 100%; /* has horizontal distortion, auto and overflow-hidden is the alternative. *
-    height: auto; /* has vertical distortion*
-    */
-    width: 100%;
-    height: calc(100vh - 50px);
-    background: url("/new/img/TSOT3.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/* overlay for content image */
-#overlay {
-    position: absolute; /* force overlay on top of background image*/
-    width: 1200px;
-    height: 100%;
-    left: -600px; /* how much of the overlay should show? */
-    top: 0;
-    background: rgb(125,20,230);
-}
-
-#overlay-text {
-    position: absolute;
-    width: 15em;
-    top: 5%;
-    right: 7%;
-    font-size: 2em;
-}
-
-#overlay-text h1 {
-    padding: 0.4em 0;
-}
-
-#overlay-text h3 {
-    line-height: 60%;
-    font-weight: normal;
-}
-
-#overlay-text p {
-    padding: 2em 0;
-}
-
-#descriptions {
-    position: absolute; /* force overlay on top of background image*/
-    bottom: 0;
-    right: -940px; /* this is totally dependant on the overlay's size. */
-    font-size: 0; /* remove the annoying 4px space between description containers */
-}
-
-#game-name {
-    display: inline-block;
-    font-size: medium;
-    background: rgba(0,0,0,0.8);
-    transition: all 0.2s;
-}
-
-#game-name a {
-    padding: 15px 30px;
-    display: block;
-    font-size: 2.00em;
-    font-weight: normal;
-}
-
-#game-name:hover {
-    background: rgba(10,10,10,0.8);
-}
-
-#game-description {
-    padding: 15px 30px;
-    display: inline-block;
-    font-size: medium;
-    background: rgb(125,20,230);
-}
-
- #game-description h1 {
-     font-weight: normal; /* lighter */
- }
-
-.skew { transform: skewX(-9deg); }
-.unskew { transform: skewX(9deg); }
-
-#projects-overview {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-#projects-overview .project {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-
-    background: rgb(20, 20, 20);
-    box-shadow: 0 0 20px rgba(200, 200, 255, 0.5);
-}
-
-#projects-overview li {
-    margin: 20px;
-}
-
-#projects-overview li img {
-    width: auto;
-    height: 300px;
-}
-
-#projects-overview li p {
-    padding: 5px 0 5px 0;
-    text-align: center;
-
-    font-size: 1.00em;
-    font-weight: 600;
-
-    color: black;
-    background: white;
-}
-
-@media only screen and (min-width: 900px) {
-
-    nav {
-        flex-direction: row;
-    }
-
-    #logo {
-        font-size: 1.8em;
-    }
-
-    #projects-overview li img {
-        width: auto;
-        height: 400px;
-    }
-}
-
-/* Common Class Types
-// ============================================================================ */
-
-.selected {
-    background: rgb(125,20,230);
-}
-
-.large-list {
-    font-size: 40px;
-}
-
-.large-list li a {
-    color: rgb(150, 150, 225);
-}
-
-.info-box {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-
-    line-height: 40px;
-
-    background: rgba(20, 20, 20, 0.5);
-    border-top: 20px solid mediumpurple;
-    box-shadow: 0 0 30px rgba(200, 200, 255, 0.5);
-}
-
-.info-box h1, h2, h3, h4 {
-    margin: 0 0 15px 0;
-}
-
-.info-box p {
-    font-size: 1.25em;
-}
-
-.has-aside {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: stretch;
-}
-
-@media only screen and (min-width: 720px) {
-
-    .info-box {
-        max-width: 600px;
-    }
-
-    .has-aside {
-        flex-direction: row;
-        justify-content: center;
-    }
-}
-
-/* Image Slider, this is a questionable approach, but also simpler/faster.
-// ============================================================================ */
-
-@keyframes transitions {
-    0% { left: 0; }
-    20% { left: 0; } 25% { left: -100%; }
-    45% { left: -100%; } 50% { left: -200%; }
-    70% { left: -200%; } 75% { left: -300%; }
-    95% { left: -300%; } 100% { left: -400%; }
-}
-
-.image-slider {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0 0 40px 0;
-
-    overflow: hidden;
-    box-shadow: 0 0 30px rgba(200, 200, 255, 0.5);
-}
-
-.image-slider figure {
-    position: relative;
-    width: 500%;
-    animation: 30s transitions infinite;
-}
-
-.image-slider figure img {
-    width: 20%;
-    float: left;
-}
-
-@media only screen and (min-width: 900px) {
-    .image-slider {
-        min-width: 500px;
-        max-width: 1280px;
-        margin:  0 0 80px 0;
-    }
 }
 
 /* Dropdown Menu
@@ -391,6 +79,14 @@ body {
 }
 
 @media only screen and (min-width: 900px) {
+    nav {
+        flex-direction: row;
+    }
+
+    #logo {
+        font-size: 1.8em;
+    }
+
     .menu {
         width: auto;
         margin: 0 0 0 20px;
@@ -398,64 +94,37 @@ body {
     }
 }
 
-/* Projects Page
+/* Sticky Footer
 // ============================================================================ */
 
-#tiles {
-    width: 70%;
-    height: 400px;
-    margin: -2.5%;
-}
-
-#tiles .tile {
-    position: relative;
-    width: 45%;
-    height: 50%;
-    float: left;
-    background: red;
-    margin: 2.5%;
-    background-size: cover !important;
-}
-
-.tile .title {
-    position: absolute;
+html {
     width: 100%;
-    top: 0;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.4em;
-    background: rgba(0,0,0,0.5);
-    font-family: 'Roboto', sans-serif;
-}
-
-.tile .cover {
-    transition: all 0.5s;
-    background: rgba(255, 255, 255, 0.35);
     height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1;
+}
+
+footer {
     width: 100%;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(20, 20, 20);
 }
 
-.tile .cover:hover {
-    background: rgba(255, 255, 255, 0);
-}
+footer p {
+    margin-top: 6px;
+    margin-bottom: 6px;
 
-.tile#ScrollStop
-{
-    background: url("../img/ScrollStop2.png");
-}
-
-.tile#InClouds
-{
-    background: url("../img/InClouds-small.jpg");
-}
-
-.tile#Carpe
-{
-    background: url("../img/Carpe3-small.jpg");
-}
-
-.tile#SpaceGame
-{
-    background: url("../img/SpaceGame1-small.jpg");
+    font-size: 0.75em;
 }
