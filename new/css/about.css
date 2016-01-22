@@ -1,0 +1,118 @@
+@import "base.css";
+
+/*
+    file: about.css
+    CSS for about.html
+
+    TODO: 'background-description' class needs a better positioning.
+*/
+
+#content {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.25em 2%;
+    height: 5%;
+}
+
+#about-links p {
+    color: black;
+    padding: 0.5em
+}
+
+#about-links a {
+    color: grey;
+    padding: 0.5em
+}
+
+#about-links .selected-text {
+    color: rgb(125,20,230);
+}
+
+#slogan {
+    padding: 0.5em 0 1em 2em;
+    display: inline-block;
+}
+
+#slogan * {
+    color: rgb(125,20,230);
+}
+
+#brief {
+    padding: 1em 1em 1em 2em;
+    display: inline-block;
+    color: black;
+}
+
+#brief * {
+    font-family: 'Lato', cursive;
+    font-weight: 400;
+    color: grey;
+}
+
+/*
+ people sit at the top of the background.  this is intended
+ to provide a stylistic effect, but has some spacing issues
+ as the screen-size shrinks.
+ */
+#background {
+    flex: 1;
+    height: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    background: url(../img/lines-purple-city-bg.jpg) center;
+    background-size: cover;
+}
+
+#people {
+    padding: 0 10% 10% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.person {
+    width: 100px;
+    padding: 1%;
+    text-align: center;
+    flex-direction: column;
+    color: grey;
+}
+
+.person img {
+    margin-bottom: 1em; /* get the text off the image */
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.person .name {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 0.25em;
+}
+
+.person .description {
+    color: grey;
+}
+
+#background-description {
+    padding: 2em;
+    align-self: center;
+    color: black;
+}
+
+#background-description a {
+    color: rgb(125,20,230);
+}

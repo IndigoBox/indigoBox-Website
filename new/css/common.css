@@ -15,6 +15,10 @@
     background: rgb(125,20,230);
 }
 
+.selected-text {
+    color: rgb(125,20,230);
+}
+
 /* Image Slider, this is a questionable approach, but also simpler/faster.
 // ============================================================================ */
 
