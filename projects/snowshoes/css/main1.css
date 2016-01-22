@@ -103,7 +103,15 @@ body {
 	font-weight:100;
 }
 
-
+#s4t {
+	right:26px;
+	top:20%;
+	
+	padding-right:26px;
+	position:absolute;
+	max-width:35%;
+	font-weight:100;
+}
 
 /* Buttons and Text Styling Classes */
 
@@ -124,8 +132,67 @@ body {
 	padding-bottom:-10px;
 }
 
-.linkTo:active {
+.linkTo:hover {
 	background-color:#286AA9;
+}
+
+.link2 {
+	border-color:#AAAAAA;
+	border-style:solid;
+	border-width:1px;
+	height:36px;
+	position:absolute;
+	width:90%;
+	background-color:#939394;
+	font-size:20px;
+	text-decoration:none;
+	color:White;
+	margin-top:20px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:-10px;
+}
+
+.link3 {
+	border-color:#AAAAAA;
+	border-style:solid;
+	border-width:1px;
+	height:36px;
+	position:absolute;
+	width:90%;
+	background-color:#ED7D31;
+	font-size:20px;
+	text-decoration:none;
+	color:White;
+	margin-top:20px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:-10px;
+}
+
+.link3:hover {
+	background-color:#D26D29;
+}
+
+.link4 {
+	border-color:#AAAAAA;
+	border-style:solid;
+	border-width:1px;
+	height:36px;
+	position:absolute;
+	width:90%;
+	background-color:#7A11DC;
+	font-size:20px;
+	text-decoration:none;
+	color:White;
+	margin-top:20px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:-10px;
+}
+
+.link4:hover {
+	background-color:#480784;
 }
 
 .ps-logo-g {
