@@ -60,21 +60,21 @@ nav {
     transition: background 0.4s;
 }
 
-/* any menu button */
+.menu li a {
+    height: 100%;
+    padding: 0 35px;
+    display: block; /* link should match the parent's size */
+    font-size: 1.2em;
+}
+
+/* color individual menu buttons */
 .menu li:hover {
     background: rgb(125,20,230);
 }
 
-/* sub-menus */
+/* display sub-menus on hover */
 .menu li:hover > ul {
     display: block;
-    align-content: center;
-}
-
-/* padding between buttons */
-.menu li a {
-    padding: 0 35px;
-    font-size: 1.2em;
 }
 
 @media only screen and (min-width: 900px) {
@@ -84,11 +84,10 @@ nav {
 
     #logo {
         font-size: 1.8em;
+        padding: 0 20px 0 0;
     }
 
     .menu {
-        width: auto;
-        margin: 0 0 0 20px;
         flex-direction: row;
     }
 }
