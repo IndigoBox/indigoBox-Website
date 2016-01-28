@@ -1,0 +1,114 @@
+@import "base.css";
+
+/*
+    file: contact.css
+    CSS for contact.html
+
+*/
+
+/* most of this page body has black text */
+#content * {
+    color: black;
+}
+
+#content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background: url(http://foxarc.com/c-blog/wp-content/uploads/2014/12/Abstract-Clipart-Transparent-Rainbow-Gauze.png) no-repeat left;
+}
+
+#content .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16vw;
+    padding: 0 0 50px 0;
+}
+
+#content .left span {
+    color: rgb(125, 20, 230);
+}
+
+
+#content .right {
+    display: flex;
+    flex-direction: column;
+}
+
+#content .right > h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    color: rgb(125, 20, 230);
+}
+
+#contact-methods > li {
+    display: flex;
+    margin: 50px 0;
+}
+
+#contact-methods > li main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-methods > li main p {
+    margin: 20px 0 0 0;
+    text-align: right;
+}
+
+#contact-methods > li aside {
+    position: relative;
+    width: 100px;
+}
+
+#contact-methods > li aside img {
+    width: 64px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#email h1 {
+    color: red;
+}
+
+#email-link {
+    color: red;
+}
+
+#apply h1 {
+    color: forestgreen;
+}
+
+#facebook h1 {
+    color: cornflowerblue;
+}
+
+@media only screen and (min-width: 900px) {
+    #content {
+        flex-direction: row;
+        padding: 0 100px;
+    }
+
+    #content .left {
+        font-size: 6em;
+    }
+
+    #content .left {
+        width: 55%;
+    }
+
+    #content .right {
+        width: 45%;
+        padding: 100px 0 0 50px;
+    }
+
+    #content .right > h1 {
+        padding: 0 0 50px 0;
+    }
+}
