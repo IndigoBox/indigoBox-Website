@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Lato|Pacifico);
+
+/* Page Body
+// ============================================================================ */
+
+body {
+    align-items: center;
+    background-color:#FFF;
+}
+
+#frontpage {
+    left:40%;
+    height:90%;
+    top:14%;
+    position:absolute;
+    z-index:5501;
+    color:#AAAAAA;
+    font-family:'Open Sans', sans-serif;
+    font-size:18px;
+    letter-spacing: 0.1225em;
+    padding:10px;
+}
+
+.emp_position {
+    color:#777777;
+    font-size:28px;
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+.ptitle {
+    font-family:'Pacifico',cursive;
+    color:#8711f5;
+    font-size:60px;
+    text-shadow:2px 2px 2px #FFCCCC;
+    letter-spacing: 0.0625em;
+
+}
+
+#facebg {
+    height:100%;
+    top:0px;
+    position:absolute;
+    left:0px;
+    width:36%;
+    
+    background-size:cover;
+    
+    z-index:-1;
+}
+
