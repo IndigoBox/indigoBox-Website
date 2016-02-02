@@ -42,6 +42,7 @@
     font-weight: lighter;
     font-size: 2.5em;
     color: rgb(125, 20, 230);
+    text-align:right;
 }
 
 #contact-methods > li {
@@ -75,6 +76,7 @@
 
 #email h1 {
     color: red;
+    text-align:right;
 }
 
 #email-link {
@@ -83,10 +85,12 @@
 
 #apply h1 {
     color: forestgreen;
+    text-align:right;
 }
 
 #facebook h1 {
     color: cornflowerblue;
+    text-align:right;
 }
 
 @media only screen and (min-width: 900px) {
