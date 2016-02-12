@@ -8,6 +8,19 @@ body {
     background-color:#FFF;
 }
 
+#frontpic {
+  /* Background-image gets set inline per page
+  background-image:url(https://placekitten.com/900/900?image=1);
+  */
+  background-size:cover;
+  left:-100px;
+  position:fixed;
+  height:100%;
+  width:30%;
+  box-shadow:0px 2px 20px #AAA;
+  min-width:400px;
+}
+
 #frontpage {
     left:40%;
     height:90%;
@@ -25,7 +38,7 @@ body {
     color:#777777;
     font-size:28px;
     font-family:'Open Sans', sans-serif;
-    
+
 }
 
 .ptitle {
@@ -43,9 +56,8 @@ body {
     position:absolute;
     left:0px;
     width:36%;
-    
+
     background-size:cover;
-    
+
     z-index:-1;
 }
-
