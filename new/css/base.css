@@ -23,6 +23,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position:fixed;
+    z-index:1000;
 
     background: rgb(20, 20, 20);
 }
