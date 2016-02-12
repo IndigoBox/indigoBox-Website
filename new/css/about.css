@@ -55,19 +55,29 @@
     color: grey;
 }
 
-/*
- people sit at the top of the background.  this is intended
- to provide a stylistic effect, but has some spacing issues
- as the screen-size shrinks.
- */
 #background {
-    flex: 1;
-    height: 100%;
-    min-height: 300px;
     display: flex;
-    flex-direction: column;
-    background: url(../img/lines-purple-city-bg.jpg) center;
-    background-size: cover;
+    align-content: center;
+    justify-content: right;
+    flex: 1;
+    height: 300px;
+    background: url(../img/lines-purple-city-bg.jpg) repeat bottom left;
+    background-size: auto 400px;
+}
+
+#background-description {
+    width: 20em;
+    padding: 2em;
+    color: black;
+}
+
+#background-description a {
+    color: rgb(125,20,230);
+}
+
+#page-focus {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .people {
@@ -78,7 +88,7 @@
 }
 
 .person {
-    width: 100px;
+    width: 120px;
     padding: 1%;
     text-align: center;
     flex-direction: column;
@@ -87,8 +97,7 @@
 
 .person img {
     margin-bottom: 1em; /* get the text off the image */
-    width: 100px;
-    height: 100px;
+    width: 100%;
     border: 2px solid blue;
     border-radius: 50%;
 }
@@ -103,19 +112,5 @@
     color: grey;
 }
 
-#background-description {
-    padding: 2em;
-    align-self: center;
-    color: black;
-}
-
-#background-description a {
-    color: rgb(125,20,230);
-}
-
 @media only screen and (min-width: 900px) {
-    #page-focus {
-        max-width: 1280px;
-        margin: 0 auto;
-    }
 }
