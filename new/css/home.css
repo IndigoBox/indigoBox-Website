@@ -14,33 +14,19 @@ body {
 #content {
     position: absolute; /* force overlay above background image */
     width: 100%;
+    height: calc(100% - 50px); /* this could really use a better solution */
     left: 0;
-    display: flex;
-}
-
-#background {
-    width: 100%;
-    height: calc(100vh - 50px);
     background: url("../img/TSOT3.jpg") center;
     background-size: cover;
 }
 
 /* overlay for content image */
 #overlay {
-    position: absolute; /* force overlay on top of background image*/
-    width: 1200px;
-    height: 100%;
-    left: -600px; /* how much of the overlay should show? */
-    top: 0;
-    background: rgb(125,20,230);
-}
-
-#overlay-text {
-    position: absolute;
-    width: 15em;
-    top: 5%;
-    right: 7%;
-    font-size: 2em;
+    margin: 50px auto;
+    padding: 25px;
+    width: 75%;
+    background: rgba(125,20,230, 0.75);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
 }
 
 #overlay-text h1 {
@@ -48,7 +34,6 @@ body {
 }
 
 #overlay-text h3 {
-    line-height: 60%;
     font-weight: normal;
 }
 
@@ -56,11 +41,24 @@ body {
     padding: 2em 0;
 }
 
+#overlay-text a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlay-text a img {
+    width: 40px;
+    height: auto;
+    margin: 0 0 0 10px;
+}
+
 #descriptions {
     position: absolute; /* force overlay on top of background image*/
     bottom: 0;
     right: -940px; /* this is totally dependant on the overlay's size. */
     font-size: 0; /* remove the annoying 4px space between description containers */
+    transform: skewX(9deg);
 }
 
 #game-name {
@@ -68,6 +66,7 @@ body {
     font-size: medium;
     background: rgba(0,0,0,0.8);
     transition: all 0.2s;
+    transform: skewX(-9deg);
 }
 
 #game-name a {
@@ -86,8 +85,33 @@ body {
     display: inline-block;
     font-size: medium;
     background: rgb(125,20,230);
+    transform: skewX(-9deg);
 }
 
  #game-description h1 {
      font-weight: normal; /* lighter */
  }
+
+@media only screen and (min-width: 900px) {
+    #overlay {
+        position: absolute; /* force overlay on top of background image*/
+        width: 1200px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        left: -600px; /* how much of the overlay should show? */
+        top: 0;
+        background: rgb(125,20,230);
+        transform: skewX(-9deg); /* skew */
+        box-shadow: none;
+    }
+
+    #overlay-text {
+        position: absolute;
+        width: 15em;
+        top: 5%;
+        right: 7%;
+        font-size: 2em;
+        transform: skewX(9deg); /* unskew */
+    }
+}
