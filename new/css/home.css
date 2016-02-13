@@ -6,18 +6,14 @@
 */
 
 body {
-    align-items: center;
-    background: rgb(50, 50, 50);
-    overflow-x: hidden; /* Viktor buys soap, 2k15 */
+    overflow-x: hidden;
 }
 
 #content {
-    position: absolute; /* force overlay above background image */
     width: 100%;
-    height: calc(100% - 50px); /* this could really use a better solution */
     left: 0;
     background: url("../img/TSOT3.jpg") center;
-    background-size: cover;
+    background-size: 1920px 100%;
 }
 
 /* overlay for content image */
@@ -27,6 +23,10 @@ body {
     width: 75%;
     background: rgba(125,20,230, 0.75);
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+}
+
+#descriptions {
+    display: none;
 }
 
 #overlay-text h1 {
@@ -53,45 +53,6 @@ body {
     margin: 0 0 0 10px;
 }
 
-#descriptions {
-    position: absolute; /* force overlay on top of background image*/
-    bottom: 0;
-    right: -940px; /* this is totally dependant on the overlay's size. */
-    font-size: 0; /* remove the annoying 4px space between description containers */
-    transform: skewX(9deg);
-}
-
-#game-name {
-    display: inline-block;
-    font-size: medium;
-    background: rgba(0,0,0,0.8);
-    transition: all 0.2s;
-    transform: skewX(-9deg);
-}
-
-#game-name a {
-    padding: 15px 30px;
-    display: block;
-    font-size: 2.00em;
-    font-weight: normal;
-}
-
-#game-name:hover {
-    background: rgba(10,10,10,0.8);
-}
-
-#game-description {
-    padding: 15px 30px;
-    display: inline-block;
-    font-size: medium;
-    background: rgb(125,20,230);
-    transform: skewX(-9deg);
-}
-
- #game-description h1 {
-     font-weight: normal; /* lighter */
- }
-
 @media only screen and (min-width: 900px) {
     #overlay {
         position: absolute; /* force overlay on top of background image*/
@@ -113,5 +74,45 @@ body {
         right: 7%;
         font-size: 2em;
         transform: skewX(9deg); /* unskew */
+    }
+
+    #descriptions {
+        display: block;
+        position: absolute; /* force overlay on top of background image*/
+        bottom: 0;
+        right: -940px; /* this is totally dependant on the overlay's size. */
+        font-size: 0; /* remove the annoying 4px space between description containers */
+        transform: skewX(9deg);
+    }
+
+    #game-name {
+        display: inline-block;
+        font-size: medium;
+        background: rgba(0,0,0,0.8);
+        transition: all 0.2s;
+        transform: skewX(-9deg);
+    }
+
+    #game-name a {
+        padding: 15px 30px;
+        display: block;
+        font-size: 2.00em;
+        font-weight: normal;
+    }
+
+    #game-name:hover {
+        background: rgba(10,10,10,0.8);
+    }
+
+    #game-description {
+        padding: 15px 30px;
+        display: inline-block;
+        font-size: medium;
+        background: rgb(125,20,230);
+        transform: skewX(-9deg);
+    }
+
+    #game-description h1 {
+        font-weight: normal; /* lighter */
     }
 }
