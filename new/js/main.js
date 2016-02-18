@@ -21,6 +21,15 @@ $(document).ready( function()
 		+ '</nav>'
 	+ '');
 
+	if(window.location.href.indexOf("indigobox.us") > -1) //if production
+	{
+		$(".menu a").each(function()
+		{
+			var href = $(this).attr("href");
+			$(this).attr("href", href.replace(".html",""));
+		});
+	}
+
 	if(window.location.href.indexOf("about") > -1)
 	{
 		$(".menu li").removeClass("selected");
