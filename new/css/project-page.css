@@ -24,6 +24,7 @@
 
 #tiles {
     width: 70%;
+    max-width: 800px;
     margin-bottom: 2.5%;
 }
 
