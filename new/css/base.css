@@ -65,6 +65,7 @@ nav {
     padding: 0 35px;
     display: block; /* link should match the parent's size */
     font-size: 1.2em;
+    text-align:left !important;
 }
 
 /* color individual menu buttons */
