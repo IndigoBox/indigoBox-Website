@@ -13,15 +13,25 @@
 
 #content {
     padding: 15px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     background-size: cover;
     background: url(http://foxarc.com/c-blog/wp-content/uploads/2014/12/Abstract-Clipart-Transparent-Rainbow-Gauze.png) no-repeat left;
 }
 
 #content .left {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-size: 16vw;
@@ -34,7 +44,11 @@
 
 
 #content .right {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -46,13 +60,19 @@
 }
 
 #contact-methods > li {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     margin: 50px 0;
 }
 
 #contact-methods > li main {
     width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -95,6 +115,8 @@
 
 @media only screen and (min-width: 900px) {
     #content {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
         flex-direction: row;
         padding: 0 100px;
     }

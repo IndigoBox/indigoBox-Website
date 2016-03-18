@@ -6,8 +6,14 @@
 */
 
 #content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     background: #E0E0E0;
 }
@@ -55,8 +61,10 @@
 }
 
 .tile .cover {
+    -webkit-transition: all 0.5s;
     transition: all 0.5s;
     opacity: 0.75;
+    filter: alpha(opacity=75);
     height: 260px;
     width: 100%;
 }
@@ -72,4 +80,5 @@
 
 .tile .cover:hover {
     opacity: 1;
+    filter: alpha(opacity=100);
 }

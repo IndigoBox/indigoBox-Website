@@ -43,8 +43,14 @@ body {
 }
 
 #overlay-text a {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -64,6 +70,8 @@ body {
         left: -600px; /* how much of the overlay should show? */
         top: 0;
         background: rgb(125,20,230);
+        -webkit-transform: skewX(-9deg);
+        -ms-transform: skewX(-9deg);
         transform: skewX(-9deg); /* skew */
         box-shadow: none;
     }
@@ -74,6 +82,8 @@ body {
         top: 5%;
         right: 7%;
         font-size: 2em;
+        -webkit-transform: skewX(9deg);
+        -ms-transform: skewX(9deg);
         transform: skewX(9deg); /* unskew */
     }
 
@@ -83,6 +93,8 @@ body {
         bottom: 0;
         right: -940px; /* this is totally dependant on the overlay's size. */
         font-size: 0; /* remove the annoying 4px space between description containers */
+        -webkit-transform: skewX(9deg);
+        -ms-transform: skewX(9deg);
         transform: skewX(9deg);
     }
 
@@ -90,7 +102,10 @@ body {
         display: inline-block;
         font-size: medium;
         background: rgba(0,0,0,0.8);
+        -webkit-transition: all 0.2s;
         transition: all 0.2s;
+        -webkit-transform: skewX(-9deg);
+        -ms-transform: skewX(-9deg);
         transform: skewX(-9deg);
     }
 
@@ -110,6 +125,8 @@ body {
         display: inline-block;
         font-size: medium;
         background: rgb(125,20,230);
+        -webkit-transform: skewX(-9deg);
+        -ms-transform: skewX(-9deg);
         transform: skewX(-9deg);
     }
 
