@@ -16,7 +16,6 @@ body {
     background-size: 1920px 100%;
 }
 
-/* overlay for content image */
 #overlay {
     margin: 50px auto;
     padding: 25px;
@@ -29,15 +28,16 @@ body {
     display: none;
 }
 
-#overlay-text h1 {
+#overlay-text h3 {
     padding: 0.4em 0;
 }
 
-#overlay-text h3 {
+#overlay-text h4 {
     font-weight: normal;
 }
 
 #overlay-text p {
+    font-size: medium;
     padding: 2em 0;
     line-height: 1.2;
 }
@@ -67,7 +67,7 @@ body {
         height: 100%;
         margin: 0;
         padding: 0;
-        left: -600px; /* how much of the overlay should show? */
+        left: -670px; /* more negative => less overlay shows */
         top: 0;
         background: rgb(125,20,230);
         -webkit-transform: skewX(-9deg);
@@ -79,14 +79,16 @@ body {
     #overlay-text {
         position: absolute;
         width: 15em;
-        top: 5%;
-        right: 7%;
+        top: 15%;
+        right: 4%;
         font-size: 2em;
         -webkit-transform: skewX(9deg);
         -ms-transform: skewX(9deg);
         transform: skewX(9deg); /* unskew */
     }
+}
 
+@media only screen and (min-device-width: 1400px) and (min-width: 1400px) {
     #descriptions {
         display: block;
         position: absolute; /* force overlay on top of background image*/
