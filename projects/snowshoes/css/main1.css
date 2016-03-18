@@ -7,6 +7,7 @@ body {
 	background-color:Green;
 	color:#ABC1D5;
 	font-size:24px;
+	overflow-x:hidden;
 }
 
 #hoverbar {
@@ -85,7 +86,7 @@ body {
 }
 
 #toplinks {
-	right:5%;
+	right:3%;
 	position: absolute;
 
 }
