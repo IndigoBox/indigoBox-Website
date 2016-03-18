@@ -10,40 +10,13 @@
 }
 
 #content {
+    padding: 50px 0 0 0;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-}
-
-#about-links {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0.25em 2%;
-    height: 5%;
-}
-
-#about-links p {
-    color: black;
-    padding: 0.5em
-}
-
-#about-links a {
-    color: grey;
-    padding: 0.5em
-}
-
-#about-links .selected-text {
-    color: rgb(125,20,230);
 }
 
 #slogan {
@@ -67,7 +40,7 @@
 #brief * {
     font-family: 'Lato', cursive;
     font-weight: 400;
-    color: grey;
+    color: #272727;
 }
 
 #background {
@@ -145,7 +118,7 @@
 }
 
 .person .description {
-    color: #545454;
+    color: #272727;
 }
 
 @media only screen and (min-width: 900px) {
