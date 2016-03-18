@@ -121,5 +121,5 @@
     color: #272727;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-device-width: 900px), screen and (min-width: 900px) {
 }

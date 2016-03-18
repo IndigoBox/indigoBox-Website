@@ -113,7 +113,7 @@
     text-align:right;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-device-width: 900px) and (min-width: 900px) {
     #content {
         -webkit-flex-direction: row;
         -ms-flex-direction: row;

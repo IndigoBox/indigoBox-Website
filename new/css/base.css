@@ -84,7 +84,7 @@ nav {
     display: block;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-device-width: 900px) and (min-width: 900px) {
     nav {
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
