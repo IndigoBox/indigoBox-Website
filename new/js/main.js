@@ -12,7 +12,7 @@ $(document).ready( function()
 		            + '<ul>'
 		                + '<li><a href="../projects/InClouds/index.html">Christmas In Clouds</a></li>'
 		                + '<li><a href="../projects/snowshoes/">Snowshoes</a></li>'
-		                + '<li><a href="lines.html">Lines</a></li>'
+		                + '<li><a href="https://github.com/IndigoBox/EdgeDetection">Lines</a></li>'
 		            + '</ul>'
 		        + '</li>'
 		        + '<li id="sneak-peek"><a href="sneak-peek.html">Sneak Peek</a></li>'
