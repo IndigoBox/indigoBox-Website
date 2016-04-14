@@ -22,7 +22,7 @@
     margin: 0 0 30px 0;
     color: white;
     text-shadow: 0px 1px 3px black;
-    background: purple;
+    background: #7D14E6;
     width: 100%;
     text-align: center;
     padding: 20px 0px;
@@ -53,7 +53,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.6em;
-    background: #59367B;
+    background: #7D14E6;
+    letter-spacing: 1px;
     text-shadow: 0px 1px 3px black;
     font-family: 'Roboto', sans-serif;
     border-top-right-radius: 3px;
@@ -61,24 +62,51 @@
 }
 
 .tile .cover {
+    background-size: cover !important;
+    background-position: center center;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    opacity: 0.75;
+    /*opacity: 0.75;*/
     filter: alpha(opacity=75);
-    height: 260px;
+    height: 300px;
     width: 100%;
 }
 
 .tile .desc
 {
+    position: relative;
     font-size: 18px;
     color: #2B2B2B;
     line-height: 1.2;
-    padding: 10px 20px;
+    padding: 10px 20px 20px 20px;
     border-top: solid 2px #D2D2D2;
 }
 
-.tile .cover:hover {
+.tile .desc h3
+{
+    color: #2B2B2B;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.tile .cover:hover
+{
     opacity: 1;
     filter: alpha(opacity=100);
+}
+
+.link-butt
+{
+    background: #4CAF50;
+    padding: 4px 20px;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.27);
+    transition: background 0.3s;
+}
+
+.link-butt:hover
+{
+    background: #098609;
 }
