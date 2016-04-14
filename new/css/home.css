@@ -17,7 +17,6 @@ body {
     background-position: 0%;
 }
 
-/* overlay for content image */
 #overlay {
     margin: 50px auto;
     padding: 25px;
@@ -30,22 +29,29 @@ body {
     display: none;
 }
 
-#overlay-text h1 {
+#overlay-text h2 {
     padding: 0.4em 0;
 }
 
-#overlay-text h3 {
+#overlay-text h4 {
     font-weight: normal;
 }
 
 #overlay-text p {
+    font-size: medium;
     padding: 2em 0;
     line-height: 1.2;
 }
 
 #overlay-text a {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -55,35 +61,51 @@ body {
     margin: 0 0 0 10px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-device-width: 900px) and (min-width: 900px) {
     #overlay {
         position: absolute; /* force overlay on top of background image*/
         width: 1200px;
         height: 100%;
         margin: 0;
         padding: 0;
-        left: -600px; /* how much of the overlay should show? */
+        left: -670px; /* more negative => less overlay shows */
         top: 0;
         background: rgb(125,20,230);
+        -webkit-transform: skewX(-9deg);
+        -ms-transform: skewX(-9deg);
         transform: skewX(-9deg); /* skew */
         box-shadow: none;
+    }
+
+    #overlay-text h2 {
+        padding: 100px 0 0.25em 0;
+        font-size: 2em;
     }
 
     #overlay-text {
         position: absolute;
         width: 15em;
-        top: 5%;
-        right: 7%;
+        right: 4%;
         font-size: 2em;
+        -webkit-transform: skewX(9deg);
+        -ms-transform: skewX(9deg);
         transform: skewX(9deg); /* unskew */
     }
 
+    #overlay-text p {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (min-device-width: 1250px) and (min-width: 1250px) {
     #descriptions {
         display: block;
         position: absolute; /* force overlay on top of background image*/
         bottom: 0;
-        right: -940px; /* this is totally dependant on the overlay's size. */
+        right: -735px; /* this is totally dependant on the overlay's size. */
         font-size: 0; /* remove the annoying 4px space between description containers */
+        -webkit-transform: skewX(9deg);
+        -ms-transform: skewX(9deg);
         transform: skewX(9deg);
     }
 
@@ -91,14 +113,17 @@ body {
         display: inline-block;
         font-size: medium;
         background: rgba(0,0,0,0.8);
+        -webkit-transition: all 0.2s;
         transition: all 0.2s;
+        -webkit-transform: skewX(-9deg);
+        -ms-transform: skewX(-9deg);
         transform: skewX(-9deg);
     }
 
     #game-name a {
         padding: 15px 30px;
         display: block;
-        font-size: 2.00em;
+        font-size: 1.5em;
         font-weight: normal;
     }
 
@@ -111,10 +136,13 @@ body {
         display: inline-block;
         font-size: medium;
         background: rgb(125,20,230);
+        -webkit-transform: skewX(-9deg);
+        -ms-transform: skewX(-9deg);
         transform: skewX(-9deg);
     }
 
     #game-description h1 {
-        font-weight: normal; /* lighter */
+        font-size: 1.5em;
+        font-weight: lighter;
     }
 }

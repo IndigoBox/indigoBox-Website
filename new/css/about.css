@@ -5,36 +5,24 @@
     CSS for about.html
 */
 
+* {
+    text-align:center;
+}
+
 #content {
+    padding: 50px 0 0 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
-}
-
-#about-links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0.25em 2%;
-    height: 5%;
-}
-
-#about-links p {
-    color: black;
-    padding: 0.5em
-}
-
-#about-links a {
-    color: grey;
-    padding: 0.5em
-}
-
-#about-links .selected-text {
-    color: rgb(125,20,230);
 }
 
 #slogan {
     padding: 0.5em 0 1em 2em;
     display: inline-block;
+    text-align:center;
 }
 
 #slogan * {
@@ -45,22 +33,36 @@
     padding: 1em 1em 1em 2em;
     display: inline-block;
     color: black;
+    text-align:center;
+    margin:10px;
 }
 
 #brief * {
     font-family: 'Lato', cursive;
     font-weight: 400;
-    color: grey;
+    color: #272727;
 }
 
 #background {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
     justify-content: right;
+    -webkit-flex: 1;
+    -ms-flex: 1;
     flex: 1;
-    height: 300px;
-    background: url(../img/lines-purple-city-bg.jpg) repeat-x bottom left;
-    background-size: auto 400px;
+    height: 100%;
+    background: url(../img/chi.png) repeat-x top left;
+    background-size: cover;
+    top:0px;
+    position:absolute;
+    width:100%;
+    z-index:-1;
 }
 
 #background-description {
@@ -80,15 +82,23 @@
 
 .people {
     padding: 0 10% 10% 10%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: justify;
     justify-content: space-around;
 }
 
 .person {
     width: 120px;
-    padding: 1%;
+    padding: 4%;
     text-align: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     color: grey;
 }
@@ -108,8 +118,9 @@
 }
 
 .person .description {
-    color: grey;
+    color: #272727;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-device-width: 900px) and (min-width: 900px) {
+
 }

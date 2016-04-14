@@ -4,10 +4,14 @@
 */
 
 .skew {
+    -webkit-transform: skewX(-9deg);
+    -ms-transform: skewX(-9deg);
     transform: skewX(-9deg);
 }
 
 .unskew {
+    -webkit-transform: skewX(9deg);
+    -ms-transform: skewX(9deg);
     transform: skewX(9deg);
 }
 

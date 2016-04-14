@@ -7,6 +7,7 @@ body {
 	background-color:Green;
 	color:#ABC1D5;
 	font-size:24px;
+	overflow-x:hidden;
 }
 
 #hoverbar {
@@ -84,8 +85,8 @@ body {
 	position:absolute;
 }
 
-#toplinks { 
-	left:30%;
+#toplinks {
+	right:3%;
 	position: absolute;
 
 }
@@ -106,7 +107,7 @@ body {
 #s4t {
 	right:26px;
 	top:20%;
-	
+
 	padding-right:26px;
 	position:absolute;
 	max-width:35%;
@@ -196,7 +197,7 @@ body {
 }
 
 .ps-logo-g {
-	font-variant: small-caps; /* It does exist! */ 
+	font-variant: small-caps; /* It does exist! */
 	color:#bfbfbf;
 	font-size:24px;
 	font-weight:300;
