@@ -12,7 +12,8 @@ body {
 #content {
     width: 100%;
     left: 0;
-    background: url("../img/InClouds-large.png") center;
+    background-image: url("../img/InClouds-large.png");
+    background-position: center;
     background-size: 1920px 100%;
     background-position: 0%;
 }

@@ -17,7 +17,7 @@ setInterval(ctoggle,3000);
 
 var slide = 0;
 // This is weird. JS arrays are weird. Can we just go back to C already?
-var img = ["./img/InClouds-large.png","./img/snowshoes.png"];
+var img = ["./img/InClouds-large.png","../projects/snowshoes/img/blue.png"];
 var pname = ["Christmas In Clouds","Project Snowshoes"];
 var descrip = ["An elegant flight game.","Windows like you've never seen before."];
 var a = ["../projects/InClouds/index.html","../projects/snowshoes/index.html"];
@@ -34,7 +34,11 @@ function ctoggle() {
     slide = 0;
   }
 
-  // Aka: Let's not use JQuery, but use innerHTML, and be careful of double quotes.
+  // Aka: Let's not use JQuery, but use innerHTML and other goodies, and be careful of double quotes.
+
+  // Set the background image. Note: I modified the CSS for this one. It'll be alright, I swear.
+  document.getElementById("content").style.backgroundImage = "url("+img[slide]+")";
+
   // Adjusts name first.
   document.getElementById("game-name").innerHTML =
   "<a class='unskew' href="+a[slide]+">"+pname[slide]+"</a>";
