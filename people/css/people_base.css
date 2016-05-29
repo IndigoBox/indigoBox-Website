@@ -8,9 +8,10 @@ body {
     background-color:#FFF;
 }
 
-#frontpic {
+#external-pages {
   /* Background-image gets set inline per page
   background-image:url(https://placekitten.com/900/900?image=1);
+  Well...back in the day that this handled images. That no longer happens.
   */
   left:-100px;
   position:absolute;
@@ -30,6 +31,19 @@ body {
     font-size:18px;
     letter-spacing: 0.1225em;
     padding:10px;
+}
+
+#opener {
+  top:0px;
+  height:40%;
+  min-height:250px;
+  max-height:450px;
+  position:relative;
+}
+
+.memPhoto {
+  width:100px;
+  height:100px;
 }
 
 .emp_position {

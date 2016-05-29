@@ -95,7 +95,7 @@
 
 .person {
     width: 120px;
-    padding: 4%;
+    padding: 4% 4% 0% 4%;
     text-align: center;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
