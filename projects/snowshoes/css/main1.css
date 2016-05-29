@@ -4,7 +4,7 @@ Seriously. Go check out Matthew's work. It's wonderful. */
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color:Green;
+	background-color:White;
 	color:#ABC1D5;
 	font-size:24px;
 	overflow-x:hidden;
@@ -20,6 +20,10 @@ body {
 	height:10%;
 	position:fixed;
 	z-index:5501;
+}
+
+#jMain {
+	background-color:White;
 }
 
 #s1 {
