@@ -59,13 +59,31 @@ body {
 #title-inf {
   top:250px;
   z-index:10000;
+  position:absolute;
+  left:0px;
+  right:0px;
+  width:100%;
+
 }
 
 .emp_position {
     color:#777777;
     font-size:28px;
     font-family:'Open Sans', sans-serif;
+}
 
+.emp_position-exp {
+    color:#777777;
+    font-size:20px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.ptitle-exp {
+    font-family:'Pacifico',cursive;
+    color:#8711f5;
+    font-size:40px;
+    text-shadow:2px 2px 2px #FFCCCC;
+    letter-spacing: 0.0625em;
 }
 
 .ptitle {
@@ -74,7 +92,6 @@ body {
     font-size:60px;
     text-shadow:2px 2px 2px #FFCCCC;
     letter-spacing: 0.0625em;
-
 }
 
 #facebg {
