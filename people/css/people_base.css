@@ -54,6 +54,7 @@ body {
   border-width:thick;
   border-color:#FFF;
   border-style:solid;
+  box-shadow: 0px 2px 5px grey;
 }
 
 #title-inf {
