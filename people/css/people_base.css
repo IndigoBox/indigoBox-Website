@@ -34,16 +34,31 @@ body {
 }
 
 #opener {
-  top:0px;
-  height:40%;
-  min-height:250px;
-  max-height:450px;
-  position:relative;
+  left:0px;
+  right:0px;
+  width:100%;
+  height:300px;
+  background-size:cover;
+  position:absolute;
 }
 
 .memPhoto {
   width:100px;
   height:100px;
+}
+
+.memPhoto-ind {
+  width:200px;
+  height:200px;
+  border-radius:100px;
+  border-width:thick;
+  border-color:#FFF;
+  border-style:solid;
+}
+
+#title-inf {
+  top:250px;
+  z-index:10000;
 }
 
 .emp_position {
