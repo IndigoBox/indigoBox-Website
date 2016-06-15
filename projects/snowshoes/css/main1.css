@@ -4,7 +4,7 @@ Seriously. Go check out Matthew's work. It's wonderful. */
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color:White;
+	background-color:#EEE;
 	color:#ABC1D5;
 	font-size:24px;
 	overflow-x:hidden;
@@ -258,7 +258,7 @@ body {
 /* Page areas, divs */
 
 #jMain {
-	background-color:White;
+	background-color:#EEEEEE;
 	top:10%;
 	left:0px;
 	right:0px;
@@ -275,15 +275,19 @@ body {
 }
 
 #joinpanels {
-
+	text-align:center;
 }
 
 #ibox-signup {
-
+	width:49%;
+	left:0px;
+	position:relative;
 }
 
 #nonibox-signup {
-
+	width:50%;
+	left:50%;
+	position:relative;
 }
 
 /* Page classes */
@@ -304,5 +308,25 @@ body {
 	font-size:18px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:200;
+}
 
+.i-title {
+	color: #7d14e6; /* Official IndigoBox color. #SoOfficial */
+	font-size:24px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.ni-title {
+	color: #0EA157; /* Helps with triadic color palette due to form of page (ew) */
+									/* That palette as shown here is not ideal at all...though if you
+											EVER followed along with IndigoBox design, you'd know that. */
+	font-size:24px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.st-signup {
+	color:#333;
+	font-family: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:200;
 }
