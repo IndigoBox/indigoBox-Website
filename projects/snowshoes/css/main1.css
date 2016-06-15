@@ -22,10 +22,6 @@ body {
 	z-index:5501;
 }
 
-#jMain {
-	background-color:White;
-}
-
 #s1 {
 	background-image:url(../img/blue.png);
 	top:10%;
@@ -94,9 +90,6 @@ body {
 	position: absolute;
 
 }
-
-
-
 
 /* Text for corresponding slides */
 
@@ -227,7 +220,6 @@ body {
 	font-variant: small-caps;
 	color:#F00;
 	font-size:18px;
-
 }
 
 .active-pg {
@@ -255,5 +247,44 @@ body {
 	position:absolute;
 	top:30%;
 	width:50%;
+}
 
+/*  END main page / site */
+
+
+
+/*	   "Join Us" page	   */
+
+/* Page areas, divs */
+
+#jMain {
+	background-color:White;
+	top:10%;
+	position:absolute;
+}
+
+#one-of-us {
+	text-align:center;
+}
+
+#joinpanels {
+
+}
+
+#ibox-signup {
+
+}
+
+#nonibox-signup {
+	border-left-color:
+}
+
+/* Page classes */
+
+.comp-head {
+	color: #f04000; /* Complementary color to natural Snowshoes accent */
+									/* Finally, I get to use one! I have mockups with this elsewhere.
+									/* Designing them was pretty fun, not going to lie. */
+	font-size: 36px;
+	font-family: 'Roboto Light', 'Source Sans Light', sans-serif;
 }
