@@ -260,11 +260,18 @@ body {
 #jMain {
 	background-color:White;
 	top:10%;
+	left:0px;
+	right:0px;
+	width:100%;
 	position:absolute;
 }
 
 #one-of-us {
 	text-align:center;
+	padding-top:20px;
+	/*left:0px;
+	right:0px;
+	position:relative;*/
 }
 
 #joinpanels {
@@ -276,15 +283,26 @@ body {
 }
 
 #nonibox-signup {
-	border-left-color:
+
 }
 
 /* Page classes */
 
 .comp-head {
 	color: #f04000; /* Complementary color to natural Snowshoes accent */
-									/* Finally, I get to use one! I have mockups with this elsewhere.
+									/* Finally, I get to use one! I have mockups with this elsewhere. */
 									/* Designing them was pretty fun, not going to lie. */
-	font-size: 36px;
-	font-family: 'Roboto Light', 'Source Sans Light', sans-serif;
+	font-size: 56px;
+	font-family: 'Roboto', 'Source Sans', sans-serif;
+	/*text-align:center;*/
+	font-variant:small-caps;
+	font-weight:200;
+}
+
+.jsubt-head {
+	color: #555;
+	font-size:18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:200;
+
 }
