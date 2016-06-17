@@ -267,12 +267,17 @@ body {
 }
 
 #one-of-us {
-	text-align:center;
+	text-align:left;
 	padding-top:40px;
 	padding-bottom:40px;
 	background-color: #f04000; /* Complementary color to natural Snowshoes accent */
 									/* Finally, I get to use one! I have mockups with this elsewhere. */
 									/* Designing them was pretty fun, not going to lie. */
+	background-image:url(../img/soangular.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding-left:225px;
+	padding-right:30px;
 	/*left:0px;
 	right:0px;
 	position:relative;*/
@@ -303,7 +308,7 @@ body {
 	bottom:0px;
 	height:10%;
 	z-index:1000000000000000000000;
-	
+
 }
 
 /* Page classes */
@@ -343,4 +348,25 @@ body {
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:200;
+}
+
+.linkForm {
+	border-color:#AAAAAA;
+	border-style:solid;
+	border-width:1px;
+	height:30px;
+	position:absolute;
+	width:200px;
+	background-color:#0EA157;
+	font-size:18px;
+	text-decoration:none;
+	color:White;
+	margin-top:20px;
+	padding-left:10px;
+	padding-top:8px;
+	padding-bottom:-8px;
+}
+
+.linkForm:hover {
+	background-color:#0c884a;
 }
