@@ -268,7 +268,11 @@ body {
 
 #one-of-us {
 	text-align:center;
-	padding-top:20px;
+	padding-top:40px;
+	padding-bottom:40px;
+	background-color: #f04000; /* Complementary color to natural Snowshoes accent */
+									/* Finally, I get to use one! I have mockups with this elsewhere. */
+									/* Designing them was pretty fun, not going to lie. */
 	/*left:0px;
 	right:0px;
 	position:relative;*/
@@ -276,26 +280,29 @@ body {
 
 #joinpanels {
 	text-align:center;
+	padding-top:30px;
 }
 
 #ibox-signup {
-	width:49%;
+
+	width:48%;
 	left:0px;
-	position:relative;
+	right:48%;
+	position:absolute;
 }
 
 #nonibox-signup {
+
 	width:50%;
 	left:50%;
-	position:relative;
+	right:0px;
+	position:absolute;
 }
 
 /* Page classes */
 
 .comp-head {
-	color: #f04000; /* Complementary color to natural Snowshoes accent */
-									/* Finally, I get to use one! I have mockups with this elsewhere. */
-									/* Designing them was pretty fun, not going to lie. */
+	color: #fff;
 	font-size: 56px;
 	font-family: 'Roboto', 'Source Sans', sans-serif;
 	/*text-align:center;*/
@@ -304,7 +311,7 @@ body {
 }
 
 .jsubt-head {
-	color: #555;
+	color: #CCC;
 	font-size:18px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:200;
@@ -326,7 +333,7 @@ body {
 
 .st-signup {
 	color:#333;
-	font-family: 14px;
+	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:200;
 }
