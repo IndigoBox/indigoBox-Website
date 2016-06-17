@@ -299,6 +299,13 @@ body {
 	position:absolute;
 }
 
+#foot {
+	bottom:0px;
+	height:10%;
+	z-index:1000000000000000000000;
+	
+}
+
 /* Page classes */
 
 .comp-head {
