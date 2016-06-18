@@ -10,7 +10,7 @@ $(document).ready( function()
 		        + '<li id="about"><a href="about.html">About</a></li>'
 		        + '<li id="projects"><a href="projects.html">Projects</a>' // projects.html
 		            + '<ul>'
-		                + '<li><a href="../projects/snowshoes/index.html">Snowshoes</a></li>'
+		                + '<li><a href="projects/snowshoes/index.html">Snowshoes</a></li>'
 						+ '<li><a href="http://carpe.us/">Carpe</a></li>'
 						+ '<li><a href="https://chrome.google.com/webstore/detail/scroll-stop/hjaclffbikdneicnleajghmppjdnnohl">Scroll Stop</a></li>'
 		            + '</ul>'

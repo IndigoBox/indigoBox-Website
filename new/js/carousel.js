@@ -13,7 +13,7 @@
 
 // Never mind that this is continuously running or anything.
 // 5 second delay between toggle.
-setInterval(ctoggle,5000);
+setInterval(ctoggle,4000);
 
 var slide = 0;
 // This is weird. JS arrays are weird. Can we just go back to C already?
