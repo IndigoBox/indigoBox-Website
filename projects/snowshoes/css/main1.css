@@ -12,7 +12,7 @@ body {
 
 #hoverbar {
 	background-color:White;
-	box-shadow: 0px 10px 10px #444;
+	box-shadow: 0px 10px 10px rgba(68,68,68,0.5);
 	top:0px;
 	width:100%;
 	left:0px;
