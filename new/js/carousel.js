@@ -17,7 +17,7 @@ setInterval(ctoggle,4000);
 
 var slide = 0;
 // This is weird. JS arrays are weird. Can we just go back to C already?
-var img = ["./img/InClouds-large.png","../projects/snowshoes/img/blue.png"];
+var img = ["./img/Carpe2.png","./img/snowshoes.png"];
 var pname = ["Carpe","Snowshoes"];
 var descrip = ["Social scheduling for individuals and businesses","Windows like you've never seen it before"];
 var a = ["../projects/InClouds/index.html","../projects/snowshoes/index.html"];
@@ -40,10 +40,10 @@ function ctoggle() {
   document.getElementById("content").style.backgroundImage = "url("+img[slide]+")";
 
   // Adjusts name first.
-  document.getElementById("game-name").innerHTML =
+  document.getElementById("project-name").innerHTML =
   "<a class='unskew' href="+a[slide]+">"+pname[slide]+"</a>";
 
   // Then, move on to the description once done with that.
-  document.getElementById("game-description").innerHTML =
+  document.getElementById("project-description").innerHTML =
   "<h1 class='unskew'>"+descrip[slide]+"</h1>";
 }
