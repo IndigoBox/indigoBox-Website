@@ -10,6 +10,10 @@ body {
 	overflow-x:hidden;
 }
 
+a {
+    transition: background-color 0.2s;
+}
+
 #hoverbar {
 	background-color:White;
 	box-shadow: 0px 10px 10px rgba(68,68,68,0.5);
