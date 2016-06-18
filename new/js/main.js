@@ -10,8 +10,9 @@ $(document).ready( function()
 		        + '<li id="about"><a href="about.html">About</a></li>'
 		        + '<li id="projects"><a href="projects.html">Projects</a>' // projects.html
 		            + '<ul>'
-		                + '<li><a href="../projects/InClouds/index.html">Christmas In Clouds</a></li>'
 		                + '<li><a href="../projects/snowshoes/">Snowshoes</a></li>'
+						+ '<li><a href="http://carpe.us/">Carpe</a></li>'
+						+ '<li><a href="https://chrome.google.com/webstore/detail/scroll-stop/hjaclffbikdneicnleajghmppjdnnohl">Scroll Stop</a></li>'
 		            + '</ul>'
 		        + '</li>'
 //		        + '<li id="sneak-peek"><a href="sneak-peek.html">Sneak Peek</a></li>'
