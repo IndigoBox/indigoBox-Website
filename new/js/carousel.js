@@ -12,14 +12,14 @@
 // projects, though, so calm yourself.
 
 // Never mind that this is continuously running or anything.
-// 3 second delay between toggle.
-setInterval(ctoggle,3000);
+// 5 second delay between toggle.
+setInterval(ctoggle,5000);
 
 var slide = 0;
 // This is weird. JS arrays are weird. Can we just go back to C already?
 var img = ["./img/InClouds-large.png","../projects/snowshoes/img/blue.png"];
-var pname = ["Christmas In Clouds","Project Snowshoes"];
-var descrip = ["An elegant flight game.","Windows like you've never seen before."];
+var pname = ["Carpe","Snowshoes"];
+var descrip = ["Social scheduling for individuals and businesses","Windows like you've never seen it before"];
 var a = ["../projects/InClouds/index.html","../projects/snowshoes/index.html"];
 // Note: used variable name a, since we create a link object with <a> in html.
 
