@@ -349,7 +349,7 @@ a {
 
 .st-signup {
 	color:#333;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:200;
 }
@@ -368,7 +368,7 @@ a {
 	margin-top:20px;
 	padding-left:10px;
 	padding-top:8px;
-	padding-bottom:-8px;
+	left: calc(50% - 110px);
 }
 
 .linkForm:hover {
