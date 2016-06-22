@@ -35,10 +35,20 @@ $(document).ready( function()
 		$(".menu li").removeClass("selected");
 		$(".menu #about").addClass("selected");
 	}
-	else if(window.location.href.indexOf("projects") > -1)
+	else if((window.location.href.indexOf("snowshoes") > -1) || (window.location.href.indexOf("scroll-stop") > -1)
+				|| (window.location.href.indexOf("in-clouds") > -1) || (window.location.href.indexOf("carpe") > -1) || (window.location.href.indexOf("lines") > -1))
 	{
 		$(".menu li").removeClass("selected");
 		$(".menu #projects").addClass("selected");
+	}
+	else if(window.location.href.indexOf("projects") > -1) {
+		$(".menu li").removeClass("selected");
+		$(".menu #projects").addClass("selected");
+		$(".menu a").each(function()
+		{
+			var href = $(this).attr("href");
+			$(this).attr("href", "../" + href);
+		});
 	}
 	else if(window.location.href.indexOf("contact") > -1)
 	{
