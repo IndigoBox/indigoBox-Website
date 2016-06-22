@@ -50,6 +50,14 @@ $(document).ready( function()
 			$(this).attr("href", "../" + href);
 		});
 	}
+	else if (window.location.href.indexOf("404") > -1) {
+		$(".menu li").removeClass("selected");
+		$(".menu a").each(function()
+		{
+			var href = $(this).attr("href");
+			$(this).attr("href", "./new/" + href);
+		});
+	}
 	else if(window.location.href.indexOf("contact") > -1)
 	{
 		$(".menu li").removeClass("selected");
