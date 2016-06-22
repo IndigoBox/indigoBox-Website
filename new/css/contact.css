@@ -20,7 +20,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     background-size: cover;
-    background: #E0E0E0;
+    background: url(../img/chi.png) no-repeat left;
 }
 
 #content .left {
