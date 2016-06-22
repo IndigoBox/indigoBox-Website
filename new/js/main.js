@@ -8,7 +8,7 @@ $(document).ready( function()
 		  + '<ul class="menu">'
 		        + '<li id="home" class="selected"><a href="index.html">Home</a></li>'
 		        + '<li id="about"><a href="about.html">About</a></li>'
-		        + '<li id="projects"><a href="projects.html">Projects</a>'
+		        + '<li id="projects"><a href="projects/index.html">Projects</a>'
 		            + '<ul>'
 		                + '<li><a href="snowshoes.html">Snowshoes</a></li>'
 						+ '<li><a href="carpe.html">Carpe</a></li>'
