@@ -24,6 +24,7 @@ body {
     width: 75%;
     background: rgba(125,20,230, 0.75);
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+    z-index: 1;
 }
 
 #descriptions {
@@ -103,11 +104,9 @@ body {
         display: block;
         position: absolute; /* force overlay on top of background image*/
         bottom: 0;
-        right: -735px; /* this is totally dependant on the overlay's size. */
+        left: 456px;
+        width: 100%;
         font-size: 0; /* remove the annoying 4px space between description containers */
-        -webkit-transform: skewX(9deg);
-        -ms-transform: skewX(9deg);
-        transform: skewX(9deg);
     }
 
     #project-name {
@@ -140,6 +139,8 @@ body {
         -webkit-transform: skewX(-9deg);
         -ms-transform: skewX(-9deg);
         transform: skewX(-9deg);
+        position: relative;
+        left: -1px;
     }
 
     #project-description h1 {

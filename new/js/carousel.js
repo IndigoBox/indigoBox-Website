@@ -41,9 +41,9 @@ function ctoggle() {
 
   // Adjusts name first.
   document.getElementById("project-name").innerHTML =
-  "<a class='unskew' href="+a[slide]+">"+pname[slide]+"</a>";
+  "<a href="+a[slide]+">"+pname[slide]+"</a>";
 
   // Then, move on to the description once done with that.
   document.getElementById("project-description").innerHTML =
-  "<h1 class='unskew'>"+descrip[slide]+"</h1>";
+  "<h1>"+descrip[slide]+"</h1>";
 }
