@@ -23,6 +23,15 @@ var descrip = ["Social scheduling for individuals and businesses","Windows like 
 var a = ["http://carpe.us/","./projects/snowshoes/index.html"];
 // Note: used variable name a, since we create a link object with <a> in html.
 
+$(document).ready(function()
+{
+  $("#content").bgswitcher({
+      images: img,
+      interval: 4000
+  });
+});
+
+
 function ctoggle() {
 
   if (slide != 1) {
@@ -37,7 +46,10 @@ function ctoggle() {
   // Aka: Let's not use JQuery, but use innerHTML and other goodies, and be careful of double quotes.
 
   // Set the background image. Note: I modified the CSS for this one. It'll be alright, I swear.
-  document.getElementById("content").style.backgroundImage = "url("+img[slide]+")";
+  // document.getElementById("content").style.backgroundImage = "url("+img[slide]+")";
+
+  
+
 
   // Adjusts name first.
   document.getElementById("project-name").innerHTML =
