@@ -92,6 +92,14 @@
     position: absolute;
     top: 0;
     right: 0;
+    transition: box-shadow 0.25s, background 0.25s;
+    border-radius: 17px;
+    padding: 1px;
+}
+
+#contact-methods aside a img:hover {
+    box-shadow: 2px 2px 2px #717171;
+    background: #717171;
 }
 
 #email h1 {
