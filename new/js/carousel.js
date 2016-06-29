@@ -48,7 +48,7 @@ function ctoggle() {
   // Set the background image. Note: I modified the CSS for this one. It'll be alright, I swear.
   // document.getElementById("content").style.backgroundImage = "url("+img[slide]+")";
 
-  
+
 
 
   // Adjusts name first.

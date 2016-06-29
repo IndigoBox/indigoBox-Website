@@ -31,6 +31,7 @@ body {
 
 #descriptions {
     display: none;
+
 }
 
 #overlay-text h2 {
@@ -109,6 +110,7 @@ body {
         left: 455px;
         width: 100%;
         font-size: 0; /* remove the annoying 4px space between description containers */
+
     }
 
     #project-name {
@@ -120,6 +122,7 @@ body {
         -webkit-transform: skewX(-9deg);
         -ms-transform: skewX(-9deg);
         transform: skewX(-9deg);
+        font-family:'Lato';
     }
 
     #project-name a {
@@ -127,6 +130,7 @@ body {
         display: block;
         font-size: 1.5em;
         font-weight: normal;
+        font-family:'Lato';
     }
 
     #project-name:hover {
@@ -143,10 +147,12 @@ body {
         transform: skewX(-9deg);
         position: relative;
         left: -1px;
+        font-family:'Lato';
     }
 
     #project-description h1 {
         font-size: 1.5em;
         font-weight: lighter;
+        font-family:'Lato';
     }
 }
