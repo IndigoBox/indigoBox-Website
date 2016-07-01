@@ -20,7 +20,7 @@ var slide = 0;
 var img = ["./img/carpe-mockup.png","./img/snowshoes.png"];
 var pname = ["Carpe","Snowshoes"];
 var descrip = ["Social scheduling for individuals and businesses","Windows like you've never seen it before"];
-var a = ["http://carpe.us/","./projects/snowshoes/index.html"];
+var a = ["./carpe.html","./snowshoes.html"];
 // Note: used variable name a, since we create a link object with <a> in html.
 
 $(document).ready(function()
