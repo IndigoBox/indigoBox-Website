@@ -17,7 +17,7 @@ setInterval(ctoggle,4000);
 
 var slide = 0;
 // This is weird. JS arrays are weird. Can we just go back to C already?
-var img = ["./img/carpe-mockup.png","./img/snowshoes.png"];
+var img = ["./img/carpe-schedule.png","./img/snowshoes.png"];
 var pname = ["Carpe","Snowshoes"];
 var descrip = ["Social scheduling for individuals and businesses","Windows like you've never seen it before"];
 var a = ["./carpe.html","./snowshoes.html"];
@@ -25,6 +25,8 @@ var a = ["./carpe.html","./snowshoes.html"];
 
 $(document).ready(function()
 {
+  // Use bgswitcher, from here:
+  // https://github.com/rewish/jquery-bgswitcher#readme
   $("#content").bgswitcher({
       images: img,
       interval: 4000

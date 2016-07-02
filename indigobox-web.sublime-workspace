@@ -128,42 +128,18 @@
 	"buffers":
 	[
 		{
-			"file": "new/index.html",
-			"settings":
-			{
-				"buffer_size": 1822,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "new/js/carousel.js",
-			"settings":
-			{
-				"buffer_size": 1786,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "new/css/index.css",
-			"settings":
-			{
-				"buffer_size": 3338,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "new/js/main.js",
-			"settings":
-			{
-				"buffer_size": 2293,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "404.html",
 			"settings":
 			{
 				"buffer_size": 1965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/snowshoes.html",
+			"settings":
+			{
+				"buffer_size": 1400,
 				"line_ending": "Unix"
 			}
 		}
@@ -218,13 +194,17 @@
 	],
 	"file_history":
 	[
-		"/home/viktor/Documents/Projects/indigoBox-Website/new/js/carousel.js",
+		"/home/viktor/Documents/Projects/vkoves.github.io/index.html",
+		"/home/viktor/Documents/Projects/vkoves.github.io/robots.txt",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/js/main.js",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/projects/index.html",
 		"/home/viktor/Documents/Projects/indigoBox-Website/new/css/index.css",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/index.html",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/js/carousel.js",
 		"/home/viktor/Documents/Projects/indigoBox-Website/index.html",
 		"/home/viktor/Documents/Projects/indigoBox-Website/new/css/projects.css",
 		"/home/viktor/Documents/Projects/indigoBox-Website/new/404.html",
 		"/home/viktor/Documents/Projects/indigoBox-Website/js/mainNew.js",
-		"/home/viktor/Documents/Projects/indigoBox-Website/new/index.html",
 		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/lowvoltage.css",
 		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/lowvoltage.html",
 		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/HAL9000.svg",
@@ -296,6 +276,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Visit",
 			"description",
 			"descriptions",
 			"project-description",
@@ -422,8 +403,7 @@
 			"t.left",
 			"et()",
 			"/*",
-			"appendTo",
-			"nouislider.create"
+			"appendTo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -446,125 +426,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "new/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1822,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1480,
-								1480
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "new/js/carousel.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1786,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "new/css/index.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3338,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "new/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2293,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "404.html",
 					"semi_transient": false,
 					"settings":
@@ -590,7 +451,37 @@
 						"translation.y": 15.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "new/snowshoes.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -644,6 +535,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"new/sno",
+				"new/snowshoes.html"
+			],
+			[
+				"main.js",
+				"new/js/main.js"
+			],
+			[
+				"projcets/inde",
+				"new/projects/index.html"
+			],
 			[
 				"index.",
 				"index.html"

@@ -293,6 +293,7 @@
         zIndex: (parseInt(this.$el.css('zIndex'), 10) || 0) - 1,
         overflow: 'hidden'
       });
+      this.$bg.addClass("bg-switcher") //VIKTOR ADDED THIS
 
       this._copyBackgroundStyles();
       this._adjustRectangle();

@@ -66,6 +66,15 @@ body {
     margin: 0 0 0 10px;
 }
 
+/* Style the background */
+.bg-switcher {
+    background-size: auto 100% !important;
+    background-position: center center !important;
+    -webkit-filter: brightness(60%);
+    filter: brightness(60%);
+}
+
+
 @media only screen and (min-device-width: 900px) and (min-width: 900px) {
     #overlay {
         position: absolute; /* force overlay on top of background image*/
@@ -123,6 +132,8 @@ body {
         -ms-transform: skewX(-9deg);
         transform: skewX(-9deg);
         font-family:'Lato';
+        position: relative;
+        top: 2px
     }
 
     #project-name a {

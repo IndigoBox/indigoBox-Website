@@ -70,6 +70,13 @@
     filter: alpha(opacity=75);
     height: 300px;
     width: 100%;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+.tile .cover:hover {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
 }
 
 .tile .desc
