@@ -59,6 +59,8 @@
     text-align:right;
 }
 
+#contact-methods { margin-top: 50px; }
+
 #contact-methods > li {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -103,12 +105,12 @@
 }
 
 #email h1 {
-    color: red;
+    color: #ff3f3f;
     text-align:right;
 }
 
 #email-link {
-    color: red;
+    color: #ff3f3f;
 }
 
 #apply h1 {
