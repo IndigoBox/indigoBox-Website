@@ -14,6 +14,23 @@ a {
     transition: background-color 0.2s;
 }
 
+/* Overlay concept, large part of code borrowed from @watercycle */
+#overlay {
+		position: absolute; /* force overlay on top of background image*/
+		width: 65%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		left: -15%; /* more negative => less overlay shows */
+		top: 0;
+		background-image: url("../img/sure.png");
+		
+		-webkit-transform: skewX(-9deg);
+		-ms-transform: skewX(-9deg);
+		transform: skewX(-9deg); /* skew */
+		box-shadow: none;
+}
+
 #hoverbar {
 	background-color:White;
 	box-shadow: 0px 10px 10px rgba(68,68,68,0.5);
