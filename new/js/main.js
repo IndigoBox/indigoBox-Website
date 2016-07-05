@@ -23,7 +23,7 @@ $(document).ready( function()
 
 	if(window.location.href.indexOf("indigobox.us") > -1) //if production
 	{
-		$(".menu a").each(function()
+		$("a").each(function() //iterate through all links
 		{
 			var href = $(this).attr("href");
 			$(this).attr("href", href.replace(".html",""));
@@ -44,7 +44,7 @@ $(document).ready( function()
 	else if(window.location.href.indexOf("projects") > -1) {
 		$(".menu li").removeClass("selected");
 		$(".menu #projects").addClass("selected");
-		$(".menu a").each(function()
+		$("nav a").each(function()
 		{
 			var href = $(this).attr("href");
 			$(this).attr("href", "../" + href);
