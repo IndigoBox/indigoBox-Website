@@ -48,6 +48,16 @@
     font-size: 2em;
     font-family: 'Lato', serif;
     color: grey;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-description .smaller {
+    font-size: 0.75em;
+    font-family: 'Lato', serif;
+    color: grey;
+    margin-top: 10px;
 }
 
 .details-and-developers {
