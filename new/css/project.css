@@ -92,5 +92,6 @@
     height: 100%;
     margin: 0 5px;
     border: 4px solid rgb(125,20,230);
+    background: rgb(125,20,230);
     border-radius: 50%;
 }
