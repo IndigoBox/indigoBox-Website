@@ -369,10 +369,11 @@ footer p {
 	font-variant:small-caps;
 	font-weight:200;
 	letter-spacing: 1.2px;
+	text-shadow:1px 1px 1px #000;
 }
 
 .jsubt-head {
-	color: #CCC;
+	color: #EEE;
 	font-size:18px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:200;
@@ -461,4 +462,9 @@ footer p {
 
 .linkIndigo:hover {
 	background-color:#480784;
+}
+
+.ibox-foot {
+	color:#7A11DC;
+	text-decoration: none;
 }
