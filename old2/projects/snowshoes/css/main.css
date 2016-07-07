@@ -1,0 +1,112 @@
+/* Yeah, my comments are strange here, but only a select few saw when my comments went crazy the first time in pretty much every page.
+
+Ah, youth.
+
+*/
+
+body {
+	font-family: 'Roboto Light', 'Helvetica Neue', Lucida Sans, sans-serif;
+	background-color:#EEEEEE;
+	left:0px;
+	right:0px;
+	font-size:1vw;
+}
+
+a {
+	color:Silver;
+	text-decoration:none;
+}
+
+a:hover {
+	color:White;
+	text-decoration:none;
+}
+
+#intro {
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0%;
+	height:100%;
+	width:100%;
+	background-image:url(../img/Apparently1986WasReallyBlurryWellThen.png);
+	background-size:100%;
+	letter-spacing: 1px;
+	position:absolute;
+	color:White;
+}
+
+#mainIntro {
+	top:15%;
+	width:100%;
+	left:0px;
+	right:0px;
+	position:absolute;
+}
+
+#thisBackgroundKeepingSnowshoesLookingGlassTilesScience {
+	top:0px;
+	height:11%;
+	left:0px;
+	right:0px;
+	width:100%;
+	position:fixed;
+	background-image:url(../img/Apparently1986WasReallyBlurryWellThen.png);
+	background-size:100%;
+	z-index:90015501;
+	overflow:hidden;
+} 
+
+#divInsideOfDivThatShouldBeRenamed {
+	top:3%;
+	height:4%;
+	left:2%;
+	right:5%;
+	width:100%;
+	position:fixed;
+	display:table-cell;
+	color:White;
+	font-size:1.45vw;
+	letter-spacing: 5px;
+	overflow:hidden;
+} 
+
+#about {
+	top:100%;
+	left:0px;
+	right:0px;
+	height:89%;
+	width:100%;
+	background-size:100%;
+	letter-spacing: 1px;
+	position:absolute;
+	color:#6E6E6E;
+	overflow:hidden;
+}
+
+#buildsActual {
+	top:189%;
+	left:0px;
+	right:0px;
+	height:89%;
+	width:100%;
+	background-image:url(../img/NeverEnoughArtisticEffects.png);
+	background-size:100%;
+	letter-spacing: 1px;
+	position:absolute;
+	color:#6E6E6E;
+	overflow:hidden;
+}
+
+#collaborators {
+	top:278%;
+	left:0px;
+	right:0px;
+	height:89%;
+	width:100%;
+	background-size:100%;
+	letter-spacing: 1px;
+	position:absolute;
+	color:#111111;
+	overflow:hidden;
+}

@@ -1,0 +1,126 @@
+@import "base.css";
+
+/*
+    file: about.css
+    CSS for about.html
+*/
+
+* {
+    text-align:center;
+}
+
+#content {
+    padding: 50px 0 0 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#slogan {
+    padding: 0.5em 0 1em 2em;
+    display: inline-block;
+    text-align:center;
+}
+
+#slogan * {
+    color: rgb(125,20,230);
+}
+
+#brief {
+    padding: 1em 1em 1em 2em;
+    display: inline-block;
+    color: black;
+    text-align:center;
+    margin:10px;
+}
+
+#brief * {
+    font-family: 'Lato', cursive;
+    font-weight: 400;
+    color: #272727;
+}
+
+#background {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: right;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    background: url(../img/chi.png) repeat-x top left;
+    background-size: cover;
+    top:0px;
+    position:absolute;
+    width:100%;
+    z-index:-1;
+}
+
+#background-description {
+    width: 20em;
+    padding: 2em;
+    color: black;
+}
+
+#background-description a {
+    color: rgb(125,20,230);
+}
+
+#page-focus {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.people {
+    padding: 0 10% 10% 10%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+}
+
+.person {
+    width: 88px;
+    padding: 4% 4% 0% 4%;
+    text-align: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: grey;
+}
+
+.person img {
+    margin-bottom: 1em; /* get the text off the image */
+    width: 100%;
+    border: 4px solid #BD7BFF;
+    background: #BD7BFF;
+    border-radius: 50%;
+}
+
+.person .name {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 0.25em;
+}
+
+.person .description {
+    color: #272727;
+}
+
+@media only screen and (min-device-width: 900px) and (min-width: 900px) {
+
+}

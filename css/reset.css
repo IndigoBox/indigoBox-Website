@@ -1,0 +1,38 @@
+/*
+    file: reset.css
+    Default values to help prevent cross-browser inconsistencies and establish
+    some sensible default values.
+*/
+
+* {
+    /* Layout - clearly alters flow of page*/
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+
+    /* Typography - may alter the flow of the page */
+    font-family: 'Lato', sans-serif; /* paragraph font */
+    font-size: 100%;
+
+    /* Appearance - does not alter the flow of the page */
+    color: white;
+    outline: none;
+}
+
+body { line-height: 1; }
+
+ol, ul {  list-style: none;  }
+a {  text-decoration: none;  }
+
+
+a, span, h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif; /* header font */
+}
+
+hr {  width: 100%;  border-color: rgb(20, 20, 20);  }
+
+h1 {  font-size: 2.00em;  }
+h2 {  font-size: 1.75em;  }
+h3 {  font-size: 1.25em;  }
+h4 {  font-size: 1.0em;  }

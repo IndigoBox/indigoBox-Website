@@ -1,0 +1,648 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"color"
+			],
+			[
+				"snea",
+				"sneak-peak"
+			],
+			[
+				"leve",
+				"finishLevel"
+			],
+			[
+				"level",
+				"levelNumber"
+			],
+			[
+				"vel",
+				"velx"
+			],
+			[
+				"scale",
+				"scaleSpeed"
+			],
+			[
+				"partic",
+				"particleCount"
+			],
+			[
+				"hear",
+				"spawnHeart"
+			],
+			[
+				"object",
+				"objectsArr"
+			],
+			[
+				"obj",
+				"objectsArr"
+			],
+			[
+				"back",
+				"backgroundImage"
+			],
+			[
+				"bgIm",
+				"backgroundImage"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"hi",
+				"hideUp"
+			],
+			[
+				"start",
+				"start-screen"
+			],
+			[
+				"game-",
+				"game-window"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"Presentati",
+				"PresentationLargeScreen"
+			],
+			[
+				"results",
+				"results-ticket"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"play",
+				"playlist-box"
+			],
+			[
+				"spoty",
+				"spotify-icon"
+			],
+			[
+				"ifra",
+				"iframe-holder"
+			],
+			[
+				"fullNo",
+				"fullNote2"
+			],
+			[
+				"full",
+				"fullNote2"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"ready",
+				"readyFunction"
+			],
+			[
+				"ameri",
+				"americanExpressIcon"
+			],
+			[
+				"din",
+				"dinersClubIcon"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "404.html",
+			"settings":
+			{
+				"buffer_size": 1965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/snowshoes.html",
+			"settings":
+			{
+				"buffer_size": 1400,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 168.0,
+		"last_filter": "package control: insta",
+		"selected_items":
+		[
+			[
+				"package control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/viktor/Documents/Projects/indigoBox-Website",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new"
+	],
+	"file_history":
+	[
+		"/home/viktor/Documents/Projects/vkoves.github.io/index.html",
+		"/home/viktor/Documents/Projects/vkoves.github.io/robots.txt",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/js/main.js",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/projects/index.html",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/css/index.css",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/index.html",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/js/carousel.js",
+		"/home/viktor/Documents/Projects/indigoBox-Website/index.html",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/css/projects.css",
+		"/home/viktor/Documents/Projects/indigoBox-Website/new/404.html",
+		"/home/viktor/Documents/Projects/indigoBox-Website/js/mainNew.js",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/lowvoltage.css",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/lowvoltage.html",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/HAL9000.svg",
+		"/C/Users/Viktor/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/speed-of-time.html",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/index.html",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/projects/InClouds/index.html",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/about.html",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/projects.html",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/contact.html",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/css/about.css",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/sneek-peek.html",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/main.css",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/valentines2016.html",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/valentines2016.css",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/valentines2016.js",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/heart.svg",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/sandbox.html",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/sandbox.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/tn.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/tn1min.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/tn-new.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/test556.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/test555.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/seaticsCopy.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/text-change.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/Checkout/New/text-change.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/tn1min-1-23-2016 Backup.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/test556OLD.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/Production/cap-cyprus.min.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/cap-cyprus.min2.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/Production/topcontent1min.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/topcontent1.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/Checkout/New/checkout-new.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/Production/checkout.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/Checkout/New/checkout-new.min.css",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/portfolio.html",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/about.html",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/index.html",
+		"/C/Users/Viktor/Documents/GitHub/vkoves.github.io/main.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/guarantee.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/Production/guarantee.min.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/Production/venue.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/venue2.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/Production/topcontent1.js",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/Checkout/Stadium-BoxOffice.com - Checkout.html",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/css/base.css",
+		"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/Checkout/checkout.css",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/humans.txt",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/projects/InClouds/css/main.css",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/index.html",
+		"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/robots.txt"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+			"*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Visit",
+			"description",
+			"descriptions",
+			"project-description",
+			"project-descri",
+			"project-desc",
+			"snowshoes",
+			".css",
+			"body",
+			"carousel",
+			"main.js",
+			"nav",
+			".js",
+			"cover",
+			"speed = ",
+			"velx",
+			"console.log",
+			"spawnHeart",
+			"reset",
+			"succes",
+			"heartsCollected",
+			"reset()",
+			"main()",
+			"reset",
+			"update",
+			"player",
+			"spawnHeart",
+			"spawnParticl",
+			"scaleSpeed",
+			"scale",
+			"scalespeed",
+			"particle",
+			"0.5",
+			"scaleSpeed",
+			"heartsColl",
+			"\"partic",
+			"particle",
+			"obj.opacity",
+			"opacity",
+			"update",
+			"velx",
+			"\"heart\"",
+			"spawnH",
+			"up",
+			"background",
+			"then = ",
+			"ctx",
+			"reset",
+			"hero",
+			">\n",
+			"start",
+			"readyFunc",
+			"readyFun",
+			"tooltip",
+			"ticketData",
+			"tgmarktooltiptext",
+			"console.log",
+			"console.og",
+			"jsFiles",
+			"seaticsCopy.js",
+			"mapAndList",
+			"id=\"filters\"",
+			"id=\"filters",
+			"wrapper",
+			"id=\"wrapper",
+			"#wrapper",
+			"mapAndList",
+			"id=\"tickets-table\"",
+			".guarantee",
+			"PresentationLargeScreen",
+			"i.ticketli",
+			"/*",
+			"js",
+			"/*",
+			"//",
+			"setup",
+			"each",
+			".each",
+			"phone",
+			"ticketListRender",
+			"rendermethod",
+			"et();",
+			"render",
+			"lt",
+			"et()",
+			"et();",
+			"bt",
+			"renderTick",
+			"bt(",
+			"bt",
+			"ei()",
+			"legend",
+			"renderTickets",
+			"renderTicketsList",
+			"render",
+			"/*",
+			"//",
+			"getfilteroptions",
+			"li(",
+			"ri()",
+			"li(",
+			"ri()",
+			"setupFilters",
+			"SetupFilters",
+			"setupFIlters",
+			"ri()",
+			"ri*(",
+			"ri",
+			"r1",
+			"$(\".",
+			"keypress",
+			"largescreen.setupLayout",
+			"/*",
+			"//",
+			"setupLayout",
+			".presentationlargescreen.mapandlist",
+			"url",
+			"ui = fun",
+			"ri()",
+			"ri",
+			"wt",
+			"wt,",
+			"wt",
+			"t.left + r",
+			"t.left",
+			"et()",
+			"/*",
+			"appendTo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "404.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "new/snowshoes.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "indigobox-web.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"new/sno",
+				"new/snowshoes.html"
+			],
+			[
+				"main.js",
+				"new/js/main.js"
+			],
+			[
+				"projcets/inde",
+				"new/projects/index.html"
+			],
+			[
+				"index.",
+				"index.html"
+			],
+			[
+				"index.cs",
+				"new/css/index.css"
+			],
+			[
+				"projects",
+				"new/css/projects.css"
+			],
+			[
+				"carousel.j",
+				"new/js/carousel.js"
+			],
+			[
+				"new/ind",
+				"new/index.html"
+			],
+			[
+				"404.ht",
+				"404.html"
+			],
+			[
+				"404",
+				"new/404.html"
+			],
+			[
+				"new/index",
+				"new/index.html"
+			],
+			[
+				"new/inde",
+				"new/index.html"
+			],
+			[
+				"mainnew",
+				"js/mainNew.js"
+			],
+			[
+				".js",
+				"new/js/main.js"
+			],
+			[
+				"sandbox",
+				"sandbox.html"
+			],
+			[
+				"nai",
+				"/C/Users/Viktor/Documents/GitHub/indigoBox-Website/new/js/main.js"
+			],
+			[
+				"test5",
+				"/C/Users/Viktor/Documents/Viktor/Work/Ticket Mini Sites/January 6th Files/test555.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "ca",
+		"selected_items":
+		[
+			[
+				"ca",
+				"~/Documents/Projects/carpe-uno/carpe.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/Projects/carpe-uno/carpe.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 462.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 313.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

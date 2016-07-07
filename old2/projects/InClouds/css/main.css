@@ -1,0 +1,168 @@
+/* Yeah, my comments are strange here, but only a select few saw when my comments went crazy the first time in pretty much every page.
+
+Ah, youth.
+
+*/
+
+body {
+	font-family:'Open Sans', sans-serif;
+}
+
+font {
+	font-family:'Open Sans', sans-serif;
+}
+
+a.dl {
+	position: relative;
+	font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background: #00BD00;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-bottom: solid 4px green;
+    top: 5px;
+}
+
+a.minorlink {
+	color:#EEEEEE;
+	text-decoration:none;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+a.dl:hover {
+	border-width: 2px;
+	margin-top: 2px;
+	top: 7px;
+	text-decoration:none;
+	font-family:'Open Sans', sans-serif;
+}
+
+.ext-logo {
+	
+}
+
+a.minorlink:hover {
+	color:#FFAAAA;
+	text-decoration:none;
+	font-family:'Open Sans', sans-serif;
+}
+
+#intro {
+	top:0px;
+	left:0px;
+	right:0px;
+	height:90%;
+	width:100%;
+	background-image:url(../img/bg-large.png);
+	/*background-size:cover;*/
+	letter-spacing: 1px;
+	position:absolute;
+	color:#333333;
+}
+
+#bgimg {
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:30%;
+	height:500px;
+	z-index:-1;
+	position:relative;
+}
+
+#mainIntro {
+	top:20%;
+	width:650px;
+	text-align:right;
+	right:0%;
+	padding: 50px;
+	position:absolute;
+	background-image:url(../img/20pertrans.png);
+	z-index:5000;
+	background-repeat:repeat;
+	color:#111111;
+}
+
+#thisBackgroundKeepingSnowshoesLookingGlassTilesScience {
+	top:0px;
+	height:70px;
+	left:0px;
+	right:0px;
+	width:100%;
+	position:fixed;
+	background-image:url(../img/bg-large.png);
+	
+	z-index:90015501;
+	overflow:hidden;
+} 
+
+#divInsideOfDivThatShouldBeRenamed {
+	
+	top:18px;
+	height:50px;
+	left:2%;
+	right:5%;
+	width:100%;
+	position:fixed;
+	display:table-cell;
+	color:White;
+	font-size:24px;
+}
+
+#divInsideOfDivThatShouldBeRenamed img{
+	background: white;
+    border-radius: 35px;
+    position: relative;
+    top: -11px;
+    height: 110%;
+}
+
+#about {
+	top:94%;
+	left:0px;
+	right:0px;
+	height:90%;
+	width:100%;
+	background-size:100%;
+	letter-spacing: 1px;
+	position:absolute;
+	color:#111111;
+	overflow:hidden;
+}
+
+#about font
+{
+	position: relative;
+	top: -20px;
+}
+
+#buildsActual {
+	top:189%;
+	left:0px;
+	right:0px;
+	height:89%;
+	width:100%;
+	background-image:url(../img/NeverEnoughArtisticEffects.png);
+	background-size:100%;
+	letter-spacing: 1px;
+	position:absolute;
+	color:#6E6E6E;
+	overflow:hidden;
+}
+
+#collaborators {
+	top:278%;
+	left:0px;
+	right:0px;
+	height:89%;
+	width:100%;
+	background-size:100%;
+	letter-spacing: 1px;
+	position:absolute;
+	color:#111111;
+	overflow:hidden;
+}
