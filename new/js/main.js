@@ -24,15 +24,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // Prepends the navbar to the html page. This just helps us cut down on
     // redundant HTML code that may frequently change.
 	document.body.insertAdjacentHTML('afterbegin', navbar);
+    var links = document.body.querySelectorAll('nav a');
 
 
     // In production mode we can strip off the .html from links.
-    if(currentUrlContains("indigobox.us"))
+    if(currentUrlContains('indigobox.us'))
     {
-        var links = document.body.getElementsByTagName('a')
-
         for (var i = 0; i < links.length; i++) {
-            links[i].href = links[i].href.replace(".html", "");
+            links[i].href = links[i].href.replace('.html', '');
         }
     }
 
@@ -55,6 +54,18 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentUrlContains(page)) {
             var selectedTab = document.getElementById(pageToTabId[page]);
             selectedTab.className += " selected";
+        }
+    }
+
+    // This last bit manually remaps anchor tags to allow main.js to
+    // handle our html that are nested in different folders
+    if (currentUrlContains('projects')) {
+        for (var i = 0; i < links.length; i++) {
+            links[i].href = '../' + links[i].getAttribute('href');
+        }
+    } else if (currentUrlContains('404')) {
+        for (var i = 0; i < links.length; i++) {
+            links[i].href = './new/' + links[i].getAttribute('href');
         }
     }
 });
