@@ -1,5 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
+# Sublime files
+*.sublime-*
 
 #JetBrain IDE files
 .idea/
+*.sublime-workspace
