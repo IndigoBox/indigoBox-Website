@@ -6,3 +6,6 @@
 #JetBrain IDE files
 .idea/
 *.sublime-workspace
+
+#vim files
+*.un~
