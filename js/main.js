@@ -68,4 +68,9 @@ $(document).ready( function()
         $(".menu li").removeClass("selected");
         $(".menu #sneak-peek").addClass("selected");
     }
+
+
+    // Set footer text to text with automatic year
+    var currentYear = (new Date()).getFullYear();
+    $("footer p").text("indigoBox Studios - " + currentYear);
 });
