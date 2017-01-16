@@ -1,11 +1,3 @@
-# Created by .ignore support plugin (hsz.mobi)
-.gitignore
-# Sublime files
-*.sublime-*
-
-#JetBrain IDE files
-.idea/
-*.sublime-workspace
-
-#vim files
-*.un~
+_site
+.sass-cache
+.jekyll-metadata
