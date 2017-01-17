@@ -1,0 +1,15 @@
+@import "base.css";
+
+/*
+    file: 404.css
+    CSS for 404.html
+*/
+
+.main-container
+{
+	width: 100% !important;
+	max-width: 800px;
+	text-align: center;
+}
+.main-container * { line-height: 1; }
+h2 { margin-bottom: 20px; }

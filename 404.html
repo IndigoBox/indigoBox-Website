@@ -1,10 +1,12 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Page Not Found :(</title>
-        <link rel="stylesheet" href="./new/css/reset.css">
-        <link rel="stylesheet" href="./new/css/index.css">
+        <link rel="stylesheet" href="css/404.css">
+        <title>Page Not Found | indigoBox Studios</title>
         <style>
         .main-container * {
             color: #4E4E4E;
@@ -36,23 +38,12 @@
         <script src="./new/js/main.js"></script>
     </head>
     <body>
+        {% include header.html %}
         <div class="main-container">
             <div class="container">
-                <h1>Sorry, we don't have that. <span></span></h1>
-                <p>(404)
-                <p>The page you were trying to view does not exist here.</p>
-                <p>It looks like this was the result of either:</p>
-                <ul>
-                    <li>a mistyped address</li>
-                    <li>an out-of-date link</li>
-                </ul>
-                <p>No worries, though! Get back on track with the header above.
-                <!--
-                <script>
-                    var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
-                </script>
-                <script src="//linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
-                -->
+                <h1>404</h1>
+                <h2>We couldn't find the page that you were looking for!</h2>
+                <p>The page you were trying to view does not exist here. This may have been caused by a mistyped address or an expired link. Use the header to get back on track.</p>
             </div>
         </div>
     </body>
