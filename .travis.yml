@@ -1,3 +1,5 @@
+# Travis configuration file
+# Environment and script configuration copied from Jekyll Continuous Integration Guide (see https://jekyllrb.com/docs/continuous-integration/)
 language: ruby
 rvm:
   - 2.3.0
@@ -7,3 +9,9 @@ script: jekyll build && htmlproofer ./_site
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - gh-pages     # test the gh-pages branch
+  - /pages-(.*)/ # test every branch which starts with "pages-"
