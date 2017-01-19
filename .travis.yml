@@ -1,6 +1,3 @@
-# Travis configuration file
-# Environment and script configuration copied from Jekyll Continuous Integration Guide (see https://jekyllrb.com/docs/continuous-integration/)
-
 language: ruby
 rvm:
 - 2.3.0
