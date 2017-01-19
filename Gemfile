@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+ruby '2.3.0'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -22,3 +22,6 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
 end
+
+# The HTML Proofer gem (see https://github.com/gjtorikian/html-proofer)
+gem "html-proofer"
