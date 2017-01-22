@@ -4,8 +4,13 @@ language: ruby
 rvm:
   - 2.3.0
 
-install: bundle install
-script: jekyll build && htmlproofer ./_site --assume-extension
+install: bundle install # Install needed gems
+script: jekyll build && htmlproofer ./_site --assume-extension --allow-hash-href --file-ignore /old.*/ # Build with Jekyll & test with HTML Proofer
+
+# In particular these HTML Proofer parameters
+# --assume-extension    - Fix needing the .html extension on links
+# --allow-hash-href     - Fix href="#" being marked as invalid
+# --file-ignore /old.*/ - Fix testing the site archives in /old and /old2
 
 # branch whitelist, only for GitHub Pages
 branches:
