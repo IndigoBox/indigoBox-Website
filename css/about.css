@@ -60,7 +60,6 @@
     background: url(../img/chi.png) repeat-x top left;
     background-size: cover;
     top:0px;
-    position:absolute;
     width:100%;
     z-index:-1;
 }
