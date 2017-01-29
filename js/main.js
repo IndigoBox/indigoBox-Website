@@ -1,5 +1,10 @@
 $(document).ready( function()
 {
+    $("#menu-btn").click(function()
+    {
+        $(".menu").slideToggle();
+    });
+
     if(window.location.href.indexOf("indigobox.us") > -1) //if production
     {
         $("a").each(function() //iterate through all links

@@ -94,10 +94,10 @@ body
     margin-left: auto;
     margin-right: auto;
 }
-@media all and (min-width: 1400px) 
+@media all and (min-width: 1400px)
 {
     #mainTitle
-    {    
+    {
         font-size: 400%;
     }
     #subTitle
@@ -159,7 +159,7 @@ body
 {
     position:absolute;
     margin-top: 15px;
-    left:65%; 
-    width:30%; 
-    right:0px; 
+    left:65%;
+    width:30%;
+    right:0px;
 }

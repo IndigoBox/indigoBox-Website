@@ -45,17 +45,21 @@ nav {
     position: relative;
     width: 100%;
     z-index: 10;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
 }
 
-.menu ul {
+#menu-btn
+{
+    width: 40px;
     position: absolute;
-    display: none; /* hide the sub-menu */
+    right: 10px;
+    top: 6px;
+}
+
+/* Add sub menu border */
+.menu ul {
     background: rgb(20, 20, 20);
 }
 
@@ -84,7 +88,30 @@ nav {
     display: block;
 }
 
-@media only screen and (min-device-width: 900px) and (min-width: 900px) {
+/* Mobile specific styling */
+@media only screen and (max-width: 899px)
+{
+    /* Add sub menu border */
+    .menu ul { border-left: solid 5px #7d14e6; }
+
+    /* Add spacing to sub menu elements */
+    .menu ul li { padding-left: 20px; }
+
+    /* don't show menu by default on mobile */
+    .menu { display: none; }
+}
+
+/* Desktop specific styling */
+@media only screen and (min-device-width: 900px) and (min-width: 900px)
+{
+    /* Hide mobile menu icon on desktop */
+    #menu-btn { display: none; }
+
+    .menu ul {
+        position: absolute;
+        display: none; /* hide the sub-menu on desktop*/
+    }
+
     nav {
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
@@ -96,7 +123,11 @@ nav {
         padding: 0 20px 0 20px;
     }
 
+    /* Force display flex in case menu was hidden or made display: block; by jQuery for mobile */
     .menu {
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
