@@ -148,3 +148,13 @@
         padding: 0 0 50px 0;
     }
 }
+
+/* Mobile specific styling */
+@media only screen and (max-width: 899px)
+{
+    #content .right > h1 { font-size: 1.7em; }
+    #contact-methods { margin-top: 0px; }
+    main h1 { font-size: 1.9em; }
+    #content .left { display: none; }
+    #content .right { margin-top: 10px; }
+}
