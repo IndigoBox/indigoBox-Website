@@ -117,3 +117,11 @@
 {
     background: #098609;
 }
+
+/* Mobile specific styling */
+@media only screen and (max-width: 899px)
+{
+    #tiles { width: 90%; }
+    .tile .cover { height: 200px; }
+    .tile .desc { padding: 10px 10px 20px 10px; }
+}
