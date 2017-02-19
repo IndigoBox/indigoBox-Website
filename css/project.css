@@ -108,3 +108,13 @@
     background: rgb(125,20,230);
     border-radius: 50%;
 }
+
+/* Mobile specific styling */
+@media only screen and (max-width: 899px)
+{
+    .project-title {
+        margin-top: 15px;
+        font-size: 4em;
+    }
+    .project-description { font-size: 1.8em; }
+}
