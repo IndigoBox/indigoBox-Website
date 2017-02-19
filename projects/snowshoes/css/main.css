@@ -29,7 +29,7 @@ a:hover {
 	bottom:0%;
 	height:100%;
 	width:100%;
-	background-image:url(../img/Apparently1986WasReallyBlurryWellThen.png);
+	background-image:url(../img/bridge-normal.png);
 	background-size:100%;
 	letter-spacing: 1px;
 	position:absolute;
@@ -51,11 +51,11 @@ a:hover {
 	right:0px;
 	width:100%;
 	position:fixed;
-	background-image:url(../img/Apparently1986WasReallyBlurryWellThen.png);
+	background-image:url(../img/bridge-normal.png);
 	background-size:100%;
 	z-index:90015501;
 	overflow:hidden;
-} 
+}
 
 #divInsideOfDivThatShouldBeRenamed {
 	top:3%;
@@ -69,7 +69,7 @@ a:hover {
 	font-size:1.45vw;
 	letter-spacing: 5px;
 	overflow:hidden;
-} 
+}
 
 #about {
 	top:100%;

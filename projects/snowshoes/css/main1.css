@@ -296,7 +296,7 @@ a {
 	background-color: #f04000; /* Complementary color to natural Snowshoes accent */
 									/* Finally, I get to use one! I have mockups with this elsewhere. */
 									/* Designing them was pretty fun, not going to lie. */
-	background-image:url(../img/soangular.png);
+	background-image:url(../img/teams.png);
 	background-size:contain;
 	background-repeat:no-repeat;
 	padding-left:225px;
@@ -437,7 +437,7 @@ footer p {
 	font-size:20px;
 }
 
-.smol {
+.small {
 	font-size:12px;
 	letter-spacing:1.1px;
 	color:#555;
