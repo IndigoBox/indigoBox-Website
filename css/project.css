@@ -17,14 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: thin solid black;
-    -webkit-filter: brightness(70%);
-    filter: brightness(70%);
     transition: all 0.5s;
-}
-
-.header-image:hover {
-    -webkit-filter: brightness(100%);
-    filter: brightness(100%);
 }
 
 .project-title {
