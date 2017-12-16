@@ -121,14 +121,20 @@ a.minorlink:hover {
 	width:100%;
 	background-size:100%;
 	letter-spacing: 1px;
-	color:#111111;
-	overflow:hidden;
+	color: rgb(50, 50, 50);
 }
 
-#about font
-{
-	position: relative;
-	top: -20px;
+#about p {
+	max-width: 1000px;
+}
+
+#about .text {
+	padding: 64px 0px;
+}
+
+#about .widget {
+	background-color: #cc2b19;
+	padding: 64px 0px;
 }
 
 #buildsActual {
