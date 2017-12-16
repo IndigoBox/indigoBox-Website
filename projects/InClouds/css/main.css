@@ -5,12 +5,23 @@ Ah, youth.
 */
 
 body {
-	font-family:'Open Sans', sans-serif;
 	margin: 0;
+	font-family:'Open Sans', sans-serif;
+	color: rgb(50, 50, 50);
 }
 
 font {
 	font-family:'Open Sans', sans-serif;
+}
+
+h1  {
+	font-size: 1.8em;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1.25em;
+	line-height: 1.5;
 }
 
 a.dl {
@@ -117,11 +128,56 @@ a.minorlink:hover {
 	height: 110%;
 }
 
+section.two-col {
+	padding: 240px 0px;
+}
+
+section.two-col p {
+	margin: 0;
+}
+
+section.two-col h1 {
+	margin-top: 20%;
+	margin-bottom: 0.25em;
+	font-size: 2.25em;
+}
+
+section.two-col:nth-of-type(odd) {
+	background-color: #cc2b19;
+	color: rgb(255, 255, 255);
+}
+
+section.two-col:nth-of-type(odd) .inner {
+	flex-direction: row-reverse;
+}
+
+section.two-col:nth-of-type(odd) .text {
+	padding-left: 64px;
+}
+
+section.two-col:nth-of-type(even) .text {
+	padding-right: 64px;
+}
+
+section.two-col .inner {
+	display: flex;
+	margin: auto;
+	max-width: 1200px;
+	justify-content: space-between;
+}
+
+section.two-col img {
+	height: 600px;
+	border: solid 8px #eadede;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
 #about {
 	width:100%;
 	background-size:100%;
 	letter-spacing: 1px;
-	color: rgb(50, 50, 50);
+	background-color: #cc2b19;
+	padding: 170px 0px 200px 0px;
 }
 
 #about p {
@@ -129,12 +185,17 @@ a.minorlink:hover {
 }
 
 #about .text {
-	padding: 64px 0px;
+	background: border-box;
+	color: white;
+}
+
+#about p {
+	max-width: 800px;
+	text-align: left;
 }
 
 #about .widget {
-	background-color: #cc2b19;
-	padding: 64px 0px;
+	padding-top: 64px;
 }
 
 #buildsActual {
