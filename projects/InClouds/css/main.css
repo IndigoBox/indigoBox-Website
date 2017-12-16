@@ -16,15 +16,15 @@ font {
 a.dl {
 	position: relative;
 	font-size: 24px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    background: #00BD00;
-    padding: 5px 20px;
-    border-radius: 5px;
-    border-bottom: solid 4px green;
-    top: 5px;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	background: #00BD00;
+	padding: 5px 20px;
+	border-radius: 5px;
+	border-bottom: solid 4px green;
+	top: 5px;
 }
 
 a.minorlink {
@@ -111,10 +111,10 @@ a.minorlink:hover {
 
 #inner img{
 	background: white;
-    border-radius: 35px;
-    position: relative;
-    top: -11px;
-    height: 110%;
+	border-radius: 35px;
+	position: relative;
+	top: -11px;
+	height: 110%;
 }
 
 #about {
