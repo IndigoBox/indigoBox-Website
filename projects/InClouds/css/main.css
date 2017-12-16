@@ -6,6 +6,7 @@ Ah, youth.
 
 body {
 	font-family:'Open Sans', sans-serif;
+	margin: 0;
 }
 
 font {
@@ -52,15 +53,11 @@ a.minorlink:hover {
 }
 
 #intro {
-	top:0px;
-	left:0px;
-	right:0px;
 	height:90%;
 	width:100%;
 	background-image:url(../img/bg-large.png);
 	background-size:cover;
 	letter-spacing: 1px;
-	position:absolute;
 	color:#333333;
 }
 
@@ -121,14 +118,9 @@ a.minorlink:hover {
 }
 
 #about {
-	top:94%;
-	left:0px;
-	right:0px;
-	height:90%;
 	width:100%;
 	background-size:100%;
 	letter-spacing: 1px;
-	position:absolute;
 	color:#111111;
 	overflow:hidden;
 }
