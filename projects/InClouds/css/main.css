@@ -143,7 +143,7 @@ section.two-col h1 {
 }
 
 section.two-col:nth-of-type(odd) {
-	background-color: #cc2b19;
+	background-color: #a03e32;
 	color: rgb(255, 255, 255);
 }
 
@@ -176,7 +176,7 @@ section.two-col img {
 	width:100%;
 	background-size:100%;
 	letter-spacing: 1px;
-	background-color: #cc2b19;
+	background-color: #a03e32;
 	padding: 170px 0px 200px 0px;
 }
 
