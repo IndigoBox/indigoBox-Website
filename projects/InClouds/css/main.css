@@ -172,29 +172,34 @@ section.two-col img {
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
-#about {
+#download {
 	width:100%;
 	background-size:100%;
 	letter-spacing: 1px;
 	background-color: #a03e32;
 	padding: 170px 0px 200px 0px;
-}
-
-#about p {
-	max-width: 1000px;
-}
-
-#about .text {
-	background: border-box;
 	color: white;
 }
 
-#about p {
+#download a {
+	text-decoration: none;
+	color: white;
+}
+
+#download p {
+	max-width: 1000px;
+}
+
+#download .text {
+	background: border-box;
+}
+
+#download p {
 	max-width: 800px;
 	text-align: left;
 }
 
-#about .widget {
+#download .widget {
 	padding-top: 64px;
 }
 
