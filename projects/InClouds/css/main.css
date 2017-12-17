@@ -172,13 +172,14 @@ section.two-col:nth-of-type(even) .text {
 section.two-col .inner {
 	display: flex;
 	margin: auto;
+	width: 90%;
 	max-width: 1200px;
 	justify-content: space-between;
 }
 
 section.two-col img {
 	height: 600px;
-	max-width: 80%;
+	max-width: 90%;
 	border: solid 0.5em #eadede;
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
@@ -277,7 +278,7 @@ section.two-col img {
 
 /* Mobile styling */
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
 	body { font-size: 14px; }
 	section.two-col { padding: 5em 0em; }
 	section.two-col h1 { margin-top: 0; }
@@ -295,7 +296,6 @@ section.two-col img {
 	}
 	section.two-col .text {
 		padding: 0 !important;
-		width: 90%;
 		margin-bottom: 3em;
 	}
 	section.two-col h1 {
@@ -315,6 +315,7 @@ section.two-col img {
 	#download-sect .widget {
 		flex-direction: column;
 		height: auto;
+		max-width: 90%;
 	}
 	#download-sect .right {
 		border-top: solid 0.5em #a03e33;
@@ -325,5 +326,9 @@ section.two-col img {
 	#download-sect .widget > * {
 		width: 100%;
 		padding: 2em 0em;
+	}
+	.small-text {
+		text-align: left;
+		width: 90%;
 	}
 }
