@@ -1,9 +1,0 @@
-# robotstxt.org/
-
-User-agent: *
-Disallow: /old
-Disallow: /new
-Disallow: /projects/tsot
-Disallow: /projects/resources
-Disallow: /people
-Disallow: /projects/snowshoes/store/no_please
