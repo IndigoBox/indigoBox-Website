@@ -10,7 +10,6 @@
 }
 
 #content {
-    padding: 50px 0 0 0;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -20,7 +19,7 @@
 }
 
 #slogan {
-    padding: 0.5em 0 1em 2em;
+    padding: 3em 1em 1em 2em;
     display: inline-block;
     text-align:center;
 }
