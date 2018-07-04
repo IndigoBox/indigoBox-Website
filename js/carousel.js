@@ -4,10 +4,10 @@ setInterval(ctoggle,4000);
 
 var slide = 0;
 // This is weird. JS arrays are weird. Can we just go back to C already?
-var img = ["./img/carpe-schedule.png","./img/snowshoes1.jpeg"];
-var pname = ["Carpe","Snowshoes"];
-var descrip = ["Social scheduling for individuals and businesses","Windows like you've never seen it before"];
-var a = ["./carpe.html","./snowshoes.html"];
+var img = ["./img/carpe-schedule.png","./img/snowshoes1.jpeg","./img/Isitfresh-cropped.png"];
+var pname = ["Carpe","Snowshoes","Is it fresh?"];
+var descrip = ["Social scheduling for individuals and businesses","Windows like you've never seen it before", "Your beautifully simple grocery guide"];
+var a = ["./carpe.html","./snowshoes.html","./is-it-fresh.html"];
 // Note: used variable name a, since we create a link object with <a> in html.
 
 $(document).ready(function()
@@ -23,7 +23,7 @@ $(document).ready(function()
 
 function ctoggle() {
 
-  if (slide != 1) {
+  if (slide < 2) {
     // If not at the end...
     slide++;
   }
