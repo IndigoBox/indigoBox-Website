@@ -1,18 +1,5 @@
-/* Alright, children, so this is a carousel.
-
- As of 4/29/2016, this only implements the bare bones of what we will use for the carousel.
- We'll talk about maybe bringing in JQuery for this later to make things look pretty,
- but we might not have to here.
-
-*/
-
-
-// Note to the reader: game-name and game-description tag names are preserved
-// as those were the original names. We'll treat the carousel as something presenting
-// projects, though, so calm yourself.
-
 // Never mind that this is continuously running or anything.
-// 5 second delay between toggle.
+// 4 second delay between toggle.
 setInterval(ctoggle,4000);
 
 var slide = 0;
