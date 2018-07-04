@@ -29,7 +29,7 @@ $(document).ready(function()
   // https://github.com/rewish/jquery-bgswitcher#readme
   $("#content").bgswitcher({
       images: img,
-      interval: 4000
+      start: false
   });
 });
 
@@ -51,7 +51,7 @@ function ctoggle() {
   // document.getElementById("content").style.backgroundImage = "url("+img[slide]+")";
 
 
-
+  $("#content").bgswitcher("select", slide)
 
   // Adjusts name first.
   document.getElementById("project-name").innerHTML =
